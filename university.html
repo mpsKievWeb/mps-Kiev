@@ -1,0 +1,1367 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"/>
+    <title>MPS</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="js/slick/slick.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Exo+2:400,100,300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="programPage aboutUniversity">
+    <nav class="navbar-relative-top fixedslider">
+        <div class="container">
+            <div class="panelTriger">
+                <div class="btn-Triger"><span></span><span></span><span></span></div>
+                <span class="textTriger">Меню</span>
+            </div>
+            <div class="row">
+                <div class="menu">
+                    <div class="leftNav col-md-6">
+                        <a class="pageLink" href="aboutUs.html">О нас</a>
+                        <a class="pageLink" href="#">Процес и оплата</a>
+                        <a class="pageLink" href="#">Гарантии</a>
+                        <a class="pageLink" href="">Вопросы и ответы</a>
+                        <a class="pageLink" href="blog.html">Блог</a>
+                        <a class="pageLink" href="#">Контакты</a>
+                    </div>
+                    <div class="rightNav">
+                        <div class="parentDropdown">
+                            <span class="dropdown btn-PhoneNumber">МТС (099)100 10 10</span>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="btn-telephone">Кievstar (067) 200 20 20</a></li>
+                                <li><a href="#" class="btn-telephone">Life (093) 200 20 20</a></li>
+                                <li><a href="#" class="btn-telephone">МТС (099)100 10 10</a></li>
+                                <li><a href="#" class="btn-telephone">Skype:romanbalykleon</a></li>
+                            </ul>
+                            <button class="btn btn-Consultation" data-toggle="modal" data-target=".bs-example-modal-lg1">
+                                хочу консультацию
+                            </button>
+                            <button class="btn-Search" data-toggle="modal" data-target=".bs-example-modal-lg5">
+                                <svg height="18px" viewBox="0 0 18 18" width="18px">
+                                    <g fill="none" fill-rule="evenodd" id="search" stroke="none" stroke-width="1">
+                                        <g fill="#F1CC33" id="Core" transform="translate(-339.000000, -381.000000)">
+                                            <g id="search" transform="translate(339.000000, 381.000000)">
+                                                <path d="M12.5,11 L11.7,11 L11.4,10.7 C12.4,9.6 13,8.1 13,6.5 C13,2.9 10.1,0 6.5,0 C2.9,0 0,2.9 0,6.5 C0,10.1 2.9,13 6.5,13 C8.1,13 9.6,12.4 10.7,11.4 L11,11.7 L11,12.5 L16,17.5 L17.5,16 L12.5,11 L12.5,11 Z M6.5,11 C4,11 2,9 2,6.5 C2,4 4,2 6.5,2 C9,2 11,4 11,6.5 C11,9 9,11 6.5,11 L6.5,11 Z"
+                                                      id="Shape"/>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="headerMain">
+                        <div class="row">
+                            <header>
+                                <div id="filterFormParent" class="col-md-4 col-sm-5 col-xs-12">
+                                    <form id="filterFormChild" class="filterForm">
+                                        <h3>каталог вариантов</h3>
+                                        <label for="priority" class="priorityLabel">
+                                            <input type="checkbox" id="priority" name="priority"/>приоритет
+                                        </label>
+                                        <div class="input-holder input-priority">
+                                            <div class="btn-Filter">
+                                                <input class="dropdown" type="text" value="Goal" readonly/>
+                                                <div class="dropdown-menu footer__countries country col-md-12">
+                                                    <div class="footer__countries__wrap">
+                                                        <div class="footer__countries--box mCustomScrollbar">
+                                                            <label class="input-square" for="filter-Form-Goal1">
+                                                                <input type="checkbox" name="filter-Form-Goal1-item" id="filter-Form-Goal1"/>
+                                                                Goal1</label>
+                                                            <label class="input-square" for="filter-Form-Goal2">
+                                                                <input type="checkbox" name="filter-Form-Goal2-item" id="filter-Form-Goal2"/>
+                                                                Goal2</label>
+                                                            <label class="input-square" for="filter-Form-Goal3">
+                                                                <input type="checkbox" name="filter-Form-Goal3-item" id="filter-Form-Goal3"/>
+                                                                Goal3</label>
+                                                            <label class="input-square" for="filter-Form-Goal4">
+                                                                <input type="checkbox" name="filter-Form-Goal4-item" id="filter-Form-Goal4"/>
+                                                                Goal4</label>
+                                                            <label class="input-square" for="filter-Form-Goal5">
+                                                                <input type="checkbox" name="filter-Form-Goal5-item" id="filter-Form-Goal5"/>
+                                                                Goal5</label>
+                                                            <label class="input-square" for="filter-Form-Goal6">
+                                                                <input type="checkbox" name="filter-Form-goal-Goal6" id="filter-Form-Goal6"/>
+                                                                Goal6</label>
+                                                            <label class="input-square" for="filter-Form-Goal7">
+                                                                <input type="checkbox" name="filter-Form-Goal7-item" id="filter-Form-Goal7"/>
+                                                                Goal7</label>
+                                                            <label class="input-square" for="filter-Form-Goal8">
+                                                                <input type="checkbox" name="filter-Form-Goal8-item" id="filter-Form-Goal8"/>
+                                                                Goal8</label>
+                                                            <label class="input-square" for="filter-Form-Goal9">
+                                                                <input type="checkbox" name="filter-Form-goal-Goal9" id="filter-Form-Goal9"/>
+                                                                Goal9</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="btn-Filter">
+                                                <input class="dropdown" type="text" value="Country"
+                                                       readonly/>
+                                                <div class="dropdown-menu footer__countries country col-md-12">
+                                                    <div class="footer__countries__wrap">
+                                                        <div class="footer__countries--box mCustomScrollbar">
+                                                            <label class="input-square" for="doesNot-Matter-Country">
+                                                                <input type="checkbox" name="doesNot-Matter-Country" id="doesNot-Matter-Country"/>
+                                                                Does not matter</label>
+                                                            <div class="input-group-square">
+                                                                <label class="mainCheckboxInList" for="filter-Form-Contunent1">
+                                                                    <input type="checkbox" name="filter-Form-Contunent1" id="filter-Form-Contunent1"/>
+                                                                    Contunent 1</label>
+                                                                <div class="list-group-variant">
+                                                                    <label for="filter-Form-country-item1">
+                                                                        <input type="checkbox" name="filterForm-country-item" id="filter-Form-country-item1"/>
+                                                                        Country-item1</label>
+                                                                    <label for="filter-Form-country-item2">
+                                                                        <input type="checkbox" name="filterForm-country-item" id="filter-Form-country-item2"/>
+                                                                        Country-item2</label>
+                                                                    <label for="filter-Form-country-item3">
+                                                                        <input type="checkbox" name="filter-Form-country-item" id="filter-Form-country-item3"/>
+                                                                        Country-item3</label>
+                                                                    <label for="filter-Form-country-item4">
+                                                                        <input type="checkbox" name="filter-Form-country-item" id="filter-Form-country-item4"/>
+                                                                        Country-item4</label>
+                                                                    <label for="filter-Form-country-item5">
+                                                                        <input type="checkbox" name="filter-Form-country-item" id="filter-Form-country-item5"/>
+                                                                        Country-item5</label>
+                                                                    <label for="filter-Form-country-item6">
+                                                                        <input type="checkbox" name="filter-Form-country-item" id="filter-Form-country-item6"/>
+                                                                        Country-item6</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="input-group-square">
+                                                                <label class="mainCheckboxInList" for="filter-Form-Contunent2">
+                                                                    <input type="checkbox" name="filter-Form-Contunent2" id="filter-Form-Contunent2"/>
+                                                                    Contunent 2</label>
+                                                                <div class="list-group-variant">
+                                                                    <label for="filter-Form-country2-item1">
+                                                                        <input type="checkbox" name="filter-Form-country2-item" id="filter-Form-country2-item1"/>
+                                                                        Country2-item1</label>
+                                                                    <label for="filter-Form-country2-item2">
+                                                                        <input type="checkbox" name="filter-Form-country2-item" id="filter-Form-country2-item2"/>
+                                                                        Country2-item2</label>
+                                                                    <label for="filter-Form-country2-item3">
+                                                                        <input type="checkbox" name="filter-Form-country2-item" id="filter-Form-country2-item3"/>
+                                                                        Country2-item3</label>
+                                                                    <label for="filter-Form-country2-item4">
+                                                                        <input type="checkbox" name="filter-Form-country2-item" id="filter-Form-country2-item4"/>
+                                                                        Country2-item4</label>
+                                                                    <label for="filter-Form-country2-item5">
+                                                                        <input type="checkbox" name="filter-Form-country2-item" id="filter-Form-country2-item5"/>
+                                                                        Country2-item5</label>
+                                                                    <label for="filter-Form-country2-item6">
+                                                                        <input type="checkbox" name="filter-Form-country2-item" id="filter-Form-country2-item6"/>
+                                                                        Country2-item6</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="btn-Filter ">
+                                                <div class="range__slider">
+                                                    <label>
+                                                        <input type="text" id="range__budget" name="budget" value=""
+                                                               readonly/>
+                                                        <span class="range__budget--min">min</span>
+                                                        <span class="range__budget--max">max</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="btn-Filter">
+                                                <input class="dropdown" type="text" value="Level-Language"
+                                                       readonly/>
+                                                <div class="dropdown-menu footer__countries country col-md-12">
+                                                    <div class="footer__countries__wrap">
+                                                        <div class="footer__countries--box mCustomScrollbar">
+                                                            <div class="input-group-circle">
+                                                                <label class="mainCheckboxInList" for="filter-Form-Level-Lang">
+                                                                    <input type="checkbox" name="filter-Form-Level-Lang" id="filter-Form-Level-Lang"/>
+                                                                    Level Language</label>
+                                                                <div class="list-group-variant">
+                                                                    <label for="filter-Form-level-Lang-item1">
+                                                                        <input type="checkbox" name="filter-Form-level-Lang-item" id="filter-Form-level-Lang-item1"/>
+                                                                        LevelLang-item1</label>
+                                                                    <label for="filter-Form-level-Lang-item2">
+                                                                        <input type="checkbox" name="filter-Form-level-Lang-item" id="filter-Form-level-Lang-item2"/>
+                                                                        LevelLang-item2</label>
+                                                                    <label for="filter-Form-level-Lang-item3">
+                                                                        <input type="checkbox" name="filter-Form-level-Lang-item" id="filter-Form-level-Lang-item3"/>
+                                                                        LevelLang-item3</label>
+                                                                    <label for="filter-Form-level-Lang-item4">
+                                                                        <input type="checkbox" name="filter-Form-level-Lang-item" id="filter-Form-level-Lang-item4"/>
+                                                                        LevelLang-item4</label>
+                                                                    <label for="filter-Form-level-Lang-item5">
+                                                                        <input type="checkbox" name="filter-Form-level-Lang-item" id="filter-Form-level-Lang-item5"/>
+                                                                        LevelLang-item5</label>
+                                                                    <label for="filter-Form-level-Lang-item6">
+                                                                        <input type="checkbox" name="filter-Form-level-Lang-item" id="filter-Form-level-Lang-item6"/>
+                                                                        LevelLang-item6</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="input-group-circle">
+                                                                <label class="mainCheckboxInList" for="filter-Form-Level-Lang2">
+                                                                    <input type="checkbox" name="filter-Form-Level-Lang2" id="filter-Form-Level-Lang2"/>
+                                                                    Level Language2</label>
+                                                                <div class="list-group-variant">
+                                                                    <label for="filter-Form-level-Lang2-item1">
+                                                                        <input type="checkbox" name="filter-Form-level-Lang2-item" id="filter-Form-level-Lang2-item1"/>
+                                                                        LevelLang2-item1</label>
+                                                                    <label for="filter-Form-level-Lang2-item2">
+                                                                        <input type="checkbox" name="filter-Form-level-Lang2-item" id="filter-Form-level-Lang2-item2"/>
+                                                                        LevelLang2-item2</label>
+                                                                    <label for="filter-Form-level-Lang2-item3">
+                                                                        <input type="checkbox" name="filter-Form-level-Lang2-item" id="filter-Form-level-Lang2-item3"/>
+                                                                        LevelLang2-item3</label>
+                                                                    <label for="filter-Form-level-Lang2-item4">
+                                                                        <input type="checkbox" name="filter-Form-level-Lang2-item" id="filter-Form-level-Lang2-item4"/>
+                                                                        LevelLang2-item4</label>
+                                                                    <label for="filter-Form-level-Lang2-item5">
+                                                                        <input type="checkbox" name="filter-Form-level-Lang2-item" id="filter-Form-level-Lang2-item5"/>
+                                                                        LevelLang2-item5</label>
+                                                                    <label for="filter-Form-level-Lang2-item6">
+                                                                        <input type="checkbox" name="filter-Form-level-Lang2-item" id="filter-Form-level-Lang2-item6"/>
+                                                                        LevelLang2-item6</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="btn-Filter">
+                                                <input class="dropdown" type="text" value="Education"
+                                                       readonly/>
+                                                <div class="dropdown-menu footer__countries country col-md-12">
+                                                    <div class="footer__countries__wrap">
+                                                        <div class="footer__countries--box mCustomScrollbar">
+                                                            <div class="input-group-square">
+                                                                <label class="mainCheckboxInList" for="filter-Form-Education">
+                                                                    <input type="checkbox" name="filter-Form-Education" id="filter-Form-Education"/>
+                                                                    Education</label>
+                                                                <div class="list-group-variant">
+                                                                    <label for="filter-Form-Education-item1">
+                                                                        <input type="checkbox" name="filter-Form-Education-item" id="filter-Form-Education-item1"/>
+                                                                        Education-item1</label>
+                                                                    <label for="filter-Form-Education-item2">
+                                                                        <input type="checkbox" name="filter-Form-Education-item" id="filter-Form-Education-item2"/>
+                                                                        Education-item2</label>
+                                                                    <label for="filter-Form-Education-item3">
+                                                                        <input type="checkbox" name="filter-Form-Education-item" id="filter-Form-Education-item3"/>
+                                                                        Education-item3</label>
+                                                                    <label for="filter-Form-Education-item4">
+                                                                        <input type="checkbox" name="filter-Form-Education-item" id="filter-Form-Education-item4"/>
+                                                                        Education-item4</label>
+                                                                    <label for="filter-Form-Education-item5">
+                                                                        <input type="checkbox" name="filter-Form-Education-item" id="filter-Form-Education-item5"/>
+                                                                        Education-item4</label>
+                                                                    <label for="filter-Form-Education-item6">
+                                                                        <input type="checkbox" name="filter-Form-Education-item" id="filter-Form-Education-item6"/>
+                                                                        Education-item4</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="input-group-square">
+                                                                <label class="mainCheckboxInList" for="filter-Form-Education2">
+                                                                    <input type="checkbox" name="filter-Form-Education2" id="filter-Form-Education2"/>
+                                                                    Education</label>
+                                                                <div class="list-group-variant">
+                                                                    <label for="filter-Form-Education2-item1">
+                                                                        <input type="checkbox" name="filter-Form-Education2-item" id="filter-Form-Education2-item1"/>
+                                                                        Education-item1</label>
+                                                                    <label for="filter-Form-Education2-item2">
+                                                                        <input type="checkbox" name="filter-Form-Education2-item" id="filter-Form-Education2-item2"/>
+                                                                        Education-item2</label>
+                                                                    <label for="filter-Form-Education2-item3">
+                                                                        <input type="checkbox" name="filter-Form-Education2-item" id="filter-Form-Education2-item3"/>
+                                                                        Education-item3</label>
+                                                                    <label for="filter-Form-Education2-item4">
+                                                                        <input type="checkbox" name="filter-Form-Education2-item" id="filter-Form-Education2-item4"/>
+                                                                        Education-item4</label>
+                                                                    <label for="filter-Form-Education2-item5">
+                                                                        <input type="checkbox" name="filter-Form-Education2-item" id="filter-Form-Education2-item5"/>
+                                                                        Education-item5</label>
+                                                                    <label for="filter-Form-Education2-item6">
+                                                                        <input type="checkbox" name="filter-Form-Education2-item" id="filter-Form-Education2-item6"/>
+                                                                        Education-item6</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button type="submit" class="filter-btnSubmit">
+                                                <span class="btn-main-text">найдите варианты</span>
+                                                <span class="btn-text">с учетом вашего приоритета</span>
+                                            </button>
+                                            <div class="why-priority">
+                                                <a href="#" title="Зачем выставлять приоритет?" class="filter-link">Зачем
+                                                    выставлять приоритет?</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </header>
+                            <div class="col-md-8 col-sm-7 col-xs-12">
+                                <div class="postsSection">
+                                    <div class="row">
+                                        <div class="col-md-12 col-sm-12 col-xs-12 left-text">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="breadNav">
+                                                        <ul class="breadList">
+                                                            <li class="breadString"><a class="breadLink" href="index.html">Главная</a> /</li>
+                                                            <li class="breadString"><a class="breadLink" href="#">Висшее образование за границей</a> /</li>
+                                                            <li class="breadString"><a class="breadLink" href="diplomsProgram.html">Дипломние програми</a> /</li>
+                                                            <li class="breadString"><a class="breadLink active" href="diplomsProgram.html">Cape Breton University "Diplom"</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <section class="filterSection">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+
+                                                        <div class="row">
+                                                            <div class="col-md-4">
+                                                                <div class="btn-Filter">
+                                                                    <input class="dropdown" type="text"
+                                                                           value="Education" readonly/>
+                                                                    <div class="dropdown-menu footer__countries country col-md-12">
+                                                                        <div class="footer__countries__wrap">
+                                                                            <div class="footer__countries--box mCustomScrollbar">
+                                                                                <div class="input-group-circle">
+                                                                                    <label class="mainCheckboxInList"
+                                                                                           for="downFormEducation">
+                                                                                        <input type="checkbox"
+                                                                                               name="education"
+                                                                                               id="downFormEducation"/>
+                                                                                        Education</label>
+                                                                                    <div class="list-group-variant">
+                                                                                        <label for="education-item1">
+                                                                                            <input type="checkbox"
+                                                                                                   name="education-item"
+                                                                                                   id="education-item1"/>
+                                                                                            Education1</label>
+                                                                                        <label for="education-item2">
+                                                                                            <input type="checkbox"
+                                                                                                   name="education-item"
+                                                                                                   id="education-item2"/>
+                                                                                            Education2</label>
+                                                                                        <label for="education-item3">
+                                                                                            <input type="checkbox"
+                                                                                                   name="education-item"
+                                                                                                   id="education-item3"/>
+                                                                                            Education3</label>
+                                                                                        <label for="education-item4">
+                                                                                            <input type="checkbox"
+                                                                                                   name="education-item"
+                                                                                                   id="education-item4"/>
+                                                                                            Educatio4</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="input-group-circle">
+                                                                                    <label class="mainCheckboxInList"
+                                                                                           for="downFormEducation2">
+                                                                                        <input type="checkbox"
+                                                                                               name="education2"
+                                                                                               id="downFormEducation2"/>
+                                                                                        Education 2</label>
+                                                                                    <div class="list-group-variant">
+                                                                                        <label for="education2-item1">
+                                                                                            <input type="checkbox"
+                                                                                                   name="education2-item"
+                                                                                                   id="education2-item1"/>
+                                                                                            Education1</label>
+                                                                                        <label for="education2-item2">
+                                                                                            <input type="checkbox"
+                                                                                                   name="education2-item"
+                                                                                                   id="education2-item2"/>
+                                                                                            Education2</label>
+                                                                                        <label for="education2-item3">
+                                                                                            <input type="checkbox"
+                                                                                                   name="education2-item"
+                                                                                                   id="education2-item3"/>
+                                                                                            Education3</label>
+                                                                                        <label for="education2-item4">
+                                                                                            <input type="checkbox"
+                                                                                                   name="education2-item"
+                                                                                                   id="education2-item4"/>
+                                                                                            Educatio4</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="btn-Filter">
+                                                                    <input class="dropdown" type="text" value="Work"
+                                                                           readonly/>
+                                                                    <div class="dropdown-menu footer__countries country col-md-12">
+                                                                        <div class="footer__countries__wrap">
+                                                                            <div class="footer__countries--box mCustomScrollbar">
+                                                                                <div class="input-group-square">
+                                                                                    <label class="mainCheckboxInList"
+                                                                                           for="downFormWork">
+                                                                                        <input type="checkbox"
+                                                                                               name="workForm"
+                                                                                               id="downFormWork"/>
+                                                                                        Work</label>
+                                                                                    <div class="list-group-variant">
+                                                                                        <label for="workItem1">
+                                                                                            <input type="checkbox"
+                                                                                                   name="work"
+                                                                                                   id="workItem1"/>
+                                                                                            Work1</label>
+                                                                                        <label for="workItem2">
+                                                                                            <input type="checkbox"
+                                                                                                   name="work"
+                                                                                                   id="workItem2"/>
+                                                                                            Work2</label>
+                                                                                        <label for="workItem3">
+                                                                                            <input type="checkbox"
+                                                                                                   name="work"
+                                                                                                   id="workItem3"/>
+                                                                                            Work3</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="input-group-square">
+                                                                                    <label class="mainCheckboxInList"
+                                                                                           for="downFormWork2">
+                                                                                        <input type="checkbox"
+                                                                                               name="workForm2"
+                                                                                               id="downFormWork2"/>
+                                                                                        Work 2</label>
+                                                                                    <div class="list-group-variant">
+                                                                                        <label for="work2Item1">
+                                                                                            <input type="checkbox"
+                                                                                                   name="work2"
+                                                                                                   id="work2Item1"/>
+                                                                                            Work1</label>
+                                                                                        <label for="work2Item2">
+                                                                                            <input type="checkbox"
+                                                                                                   name="work2"
+                                                                                                   id="work2Item2"/>
+                                                                                            Work2</label>
+                                                                                        <label for="work2Item3">
+                                                                                            <input type="checkbox"
+                                                                                                   name="work2"
+                                                                                                   id="work2Item3"/>
+                                                                                            Work3</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="btn-Filter">
+                                                                    <input class="dropdown" type="text"
+                                                                           value="PMJ/VNJ" readonly/>
+                                                                    <div class="dropdown-menu footer__countries country col-md-12">
+                                                                        <div class="footer__countries__wrap">
+                                                                            <div class="footer__countries--box mCustomScrollbar">
+                                                                                <div class="input-group-square">
+                                                                                    <label class="mainCheckboxInList"
+                                                                                           for="downFormPMJ">
+                                                                                        <input type="checkbox"
+                                                                                               name="PMJForm"
+                                                                                               id="downFormPMJ"/>
+                                                                                        PMJ</label>
+                                                                                    <div class="list-group-variant">
+                                                                                        <label for="PMJItem1">
+                                                                                            <input type="checkbox"
+                                                                                                   name="PMJ"
+                                                                                                   id="PMJItem1"/>
+                                                                                            PMJ1</label>
+                                                                                        <label for="PMJItem2">
+                                                                                            <input type="checkbox"
+                                                                                                   name="PMJ"
+                                                                                                   id="PMJItem2"/>
+                                                                                            PMJ2</label>
+                                                                                        <label for="PMJItem3">
+                                                                                            <input type="checkbox"
+                                                                                                   name="PMJ"
+                                                                                                   id="PMJItem3"/>
+                                                                                            PMJ3</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="input-group-square">
+                                                                                    <label class="mainCheckboxInList"
+                                                                                           for="downFormPMJ2">
+                                                                                        <input type="checkbox"
+                                                                                               name="PMJForm2"
+                                                                                               id="downFormPMJ2"/>
+                                                                                        PMJ 2</label>
+                                                                                    <div class="list-group-variant">
+                                                                                        <label for="PMJ2Item1">
+                                                                                            <input type="checkbox"
+                                                                                                   name="PMJ2"
+                                                                                                   id="PMJ2Item1"/>
+                                                                                            PMJ1</label>
+                                                                                        <label for="PMJ2Item2">
+                                                                                            <input type="checkbox"
+                                                                                                   name="PMJ2"
+                                                                                                   id="PMJ2Item2"/>
+                                                                                            PMJ2</label>
+                                                                                        <label for="PMJ2Item3">
+                                                                                            <input type="checkbox"
+                                                                                                   name="PMJ2"
+                                                                                                   id="PMJ2Item3"/>
+                                                                                            PMJ3</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-4">
+                                                                <div class="btn-Filter">
+                                                                    <input class="dropdown" type="text"
+                                                                           value="Internship" readonly/>
+                                                                    <div class="dropdown-menu footer__countries country col-md-12">
+                                                                        <div class="footer__countries__wrap">
+                                                                            <div class="footer__countries--box mCustomScrollbar">
+                                                                                <div class="input-group-circle">
+                                                                                    <label class="mainCheckboxInList"
+                                                                                           for="downFormInternship">
+                                                                                        <input type="checkbox"
+                                                                                               name="internship"
+                                                                                               id="downFormInternship"/>
+                                                                                        Internship</label>
+                                                                                    <div class="list-group-variant">
+                                                                                        <label for="internship-item1">
+                                                                                            <input type="checkbox"
+                                                                                                   name="internship-item"
+                                                                                                   id="internship-item1"/>
+                                                                                            Internship1</label>
+                                                                                        <label for="internship-item2">
+                                                                                            <input type="checkbox"
+                                                                                                   name="internship-item"
+                                                                                                   id="internship-item2"/>
+                                                                                            Internship2</label>
+                                                                                        <label for="internship-item3">
+                                                                                            <input type="checkbox"
+                                                                                                   name="internship-item"
+                                                                                                   id="internship-item3"/>
+                                                                                            Internship3</label>
+                                                                                        <label for="internship-item4">
+                                                                                            <input type="checkbox"
+                                                                                                   name="internship-item"
+                                                                                                   id="internship-item4"/>
+                                                                                            Internship4</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="input-group-circle">
+                                                                                    <label class="mainCheckboxInList"
+                                                                                           for="downFormInternship2">
+                                                                                        <input type="checkbox"
+                                                                                               name="internship2"
+                                                                                               id="downFormInternship2"/>
+                                                                                        Internship 2</label>
+                                                                                    <div class="list-group-variant">
+                                                                                        <label for="internship2-item1">
+                                                                                            <input type="checkbox"
+                                                                                                   name="internship2-item"
+                                                                                                   id="internship2-item1"/>
+                                                                                            Internship1</label>
+                                                                                        <label for="internship2-item2">
+                                                                                            <input type="checkbox"
+                                                                                                   name="internship2-item"
+                                                                                                   id="internship2-item2"/>
+                                                                                            Internship2</label>
+                                                                                        <label for="internship2-item3">
+                                                                                            <input type="checkbox"
+                                                                                                   name="internship2-item"
+                                                                                                   id="internship2-item3"/>
+                                                                                            Internship3</label>
+                                                                                        <label for="internship2-item4">
+                                                                                            <input type="checkbox"
+                                                                                                   name="internship2-item"
+                                                                                                   id="internship2-item4"/>
+                                                                                            Internship4</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="btn-Filter">
+                                                                    <input class="dropdown" type="text"
+                                                                           value="Realty" readonly/>
+                                                                    <div class="dropdown-menu footer__countries country col-md-12">
+                                                                        <div class="footer__countries__wrap">
+                                                                            <div class="footer__countries--box mCustomScrollbar">
+                                                                                <div class="input-group-square">
+                                                                                    <label class="mainCheckboxInList"
+                                                                                           for="downFormRealty">
+                                                                                        <input type="checkbox"
+                                                                                               name="RealtyForm"
+                                                                                               id="downFormRealty"/>
+                                                                                        Realty</label>
+                                                                                    <div class="list-group-variant">
+                                                                                        <label for="RealtyItem1">
+                                                                                            <input type="checkbox"
+                                                                                                   name="Realty"
+                                                                                                   id="RealtyItem1"/>
+                                                                                            Realty1</label>
+                                                                                        <label for="RealtyItem2">
+                                                                                            <input type="checkbox"
+                                                                                                   name="Realty"
+                                                                                                   id="RealtyItem2"/>
+                                                                                            Realty2</label>
+                                                                                        <label for="RealtyItem3">
+                                                                                            <input type="checkbox"
+                                                                                                   name="Realty"
+                                                                                                   id="RealtyItem3"/>
+                                                                                            Realty3</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="input-group-square">
+                                                                                    <label class="mainCheckboxInList"
+                                                                                           for="downFormRealty2">
+                                                                                        <input type="checkbox"
+                                                                                               name="RealtyForm2"
+                                                                                               id="downFormRealty2"/>
+                                                                                        Realty 2</label>
+                                                                                    <div class="list-group-variant">
+                                                                                        <label for="Realty2Item1">
+                                                                                            <input type="checkbox"
+                                                                                                   name="Realty2"
+                                                                                                   id="Realty2Item1"/>
+                                                                                            Realty1</label>
+                                                                                        <label for="Realty2Item2">
+                                                                                            <input type="checkbox"
+                                                                                                   name="Realty2"
+                                                                                                   id="Realty2Item2"/>
+                                                                                            Realty2</label>
+                                                                                        <label for="Realty2Item3">
+                                                                                            <input type="checkbox"
+                                                                                                   name="Realty2"
+                                                                                                   id="Realty2Item3"/>
+                                                                                            Realty3</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="btn-Filter">
+                                                                    <input class="dropdown" type="text"
+                                                                           value="Prise" readonly/>
+                                                                    <div class="dropdown-menu footer__countries country col-md-12">
+                                                                        <div class="footer__countries__wrap">
+                                                                            <div class="footer__countries--box mCustomScrollbar">
+                                                                                <div class="input-group-square">
+                                                                                    <label class="mainCheckboxInList"
+                                                                                           for="downFormPrise">
+                                                                                        <input type="checkbox"
+                                                                                               name="PriseForm"
+                                                                                               id="downFormPrise"/>
+                                                                                        Prise</label>
+                                                                                    <div class="list-group-variant">
+                                                                                        <label for="PriseItem1">
+                                                                                            <input type="checkbox"
+                                                                                                   name="Prise"
+                                                                                                   id="PriseItem1"/>
+                                                                                            Prise1</label>
+                                                                                        <label for="PriseItem2">
+                                                                                            <input type="checkbox"
+                                                                                                   name="Prise"
+                                                                                                   id="PriseItem2"/>
+                                                                                            Prise2</label>
+                                                                                        <label for="PriseItem3">
+                                                                                            <input type="checkbox"
+                                                                                                   name="Prise"
+                                                                                                   id="PriseItem3"/>
+                                                                                            Prise3</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="input-group-square">
+                                                                                    <label class="mainCheckboxInList"
+                                                                                           for="downFormPrise2">
+                                                                                        <input type="checkbox"
+                                                                                               name="PriseForm2"
+                                                                                               id="downFormPrise2"/>
+                                                                                        Prise 2</label>
+                                                                                    <div class="list-group-variant">
+                                                                                        <label for="Prise2Item1">
+                                                                                            <input type="checkbox"
+                                                                                                   name="Prise2"
+                                                                                                   id="Prise2Item1"/>
+                                                                                            Prise1</label>
+                                                                                        <label for="Prise2Item2">
+                                                                                            <input type="checkbox"
+                                                                                                   name="Prise2"
+                                                                                                   id="Prise2Item2"/>
+                                                                                            Prise2</label>
+                                                                                        <label for="Prise2Item3">
+                                                                                            <input type="checkbox"
+                                                                                                   name="Prise2"
+                                                                                                   id="Prise2Item3"/>
+                                                                                            Prise3</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-5 center">
+                                                                <div class="parentFieldSearch">
+                                                                    <div class="btn-Filter">
+                                                                        <input id="sortPage" class="dropdown" type="button"
+                                                                               value="Сортировка по:" readonly/>
+                                                                        <ul class="dropdown-menu">
+                                                                            <li><span
+                                                                                    class="sortLister">Свободное владение</span>
+                                                                            </li>
+                                                                            <li><span class="sortLister">Самодостаточное владение</span>
+                                                                            </li>
+                                                                            <li><span class="sortLister">Элементарное владение</span>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </section>
+                                            <article>
+                                                <h1 class="programTitle">Cape Breton University "Diplom"</h1>
+                                                <article class="aboutProgram">
+                                                    <div class="row">
+                                                        <div class="flex">
+                                                            <div class="col-md-6 col-xs-12 aboutProgramPartMedia">
+                                                                <img class="mainImage" src="image/postImage.jpg" alt=""/>
+                                                            </div>
+                                                            <div class="col-md-6 col-xs-12 aboutProgramPartText">
+                                                                <span class="universityType">государственный университет</span>
+                                                                <h3 class="universityName">Cape Breton University "Diplom"</h3>
+                                                                <span class="universityCountry">Канада: Сиднея,Нова Шотландия</span>
+                                                                <ul class="programInfo">
+                                                                    <li class="programInfoString">
+                                                                        <h4>Срок обучения:</h4>
+                                                                        <span>2 года</span></li>
+                                                                    <li class="programInfoString">
+                                                                        <h4>Старт программы:</h4>
+                                                                        <span>сентяберь, январь, май</span></li>
+                                                                    <li class="programInfoString">
+                                                                        <h4>Язик обученния:</h4>
+                                                                        <span>английский</span></li>
+                                                                    <li class="programInfoString">
+                                                                        <h4>Минимальний уровень язика:</h4>
+                                                                        <span>upper-intermediate</span></li>
+                                                                </ul>
+                                                                <button class="btnQuestion" data-toggle="modal" data-target=".bs-example-modal-lg3">есть вопроси?спросите нас</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </article>
+                                            <article>
+                                                <div class="row">
+                                                    <h3 class="col-md-12 col-sm-12 col-xs-12 titlePost">Описания Университета Cape Breton University</h3>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <p class="largeInformation">Work and Travel USA — тебе наверняка не раз приходилось слышать эти слова от своих
+                                                            друзей, родных или знакомых. И это не удивительно, ведь это самая популярная
+                                                            студенческая программа последнего десятилетия. Только она даёт тебе отличную возможность
+                                                            провести лето в Соединённых Штатах Америки, жить на берегу океана или в мегаполисе,
+                                                            работать бок о бок с американцами и такими же как ты студентами из разных стран,
+                                                            зарабатывать хорошие деньги, в совершенстве овладеть английским, отправиться в
+                                                            незабываемое путешествие и почувствовать настоящую свободу.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <h3 class="col-md-12 col-sm-12 col-xs-12 titlePost">Учебное Завидение</h3>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <p class="largeInformation">Work and Travel USA — тебе наверняка не раз приходилось слышать эти слова от своих
+                                                            друзей, родных или знакомых. И это не удивительно, ведь это самая популярная
+                                                            студенческая программа последнего десятилетия. Только она даёт тебе отличную возможность
+                                                            провести лето в Соединённых Штатах Америки, жить на берегу океана или в мегаполисе,
+                                                            работать бок о бок с американцами и такими же как ты студентами из разных стран,
+                                                            зарабатывать хорошие деньги, в совершенстве овладеть английским, отправиться в
+                                                            незабываемое путешествие и почувствовать настоящую свободу.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-4 col-sm-4 col-xs-4"><div class="parentField"><img src="image/postImage.jpg" alt=""></div></div>
+                                                    <div class="col-md-4 col-sm-4 col-xs-4"><div class="parentField"><img src="image/postImage.jpg" alt=""></div></div>
+                                                    <div class="col-md-4 col-sm-4 col-xs-4"><div class="parentField"><img src="image/postImage.jpg" alt=""></div></div>
+                                                </div>
+                                                <div class="row">
+                                                    <h3 class="col-md-12 col-sm-12 col-xs-12 titlePost">Стоимость обучения</h3>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <p class="largeInformation"><span class="bolder">Work and Travel USA</span>тебе наверняка не раз приходилось слышать эти слова от своих
+                                                            друзей, родных или знакомых. И это не удивительно, ведь это самая популярная
+                                                            студенческая программа последнего десятилетия.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <span class="priseStart">Cтоимость от CAD 11 100 в год</span>
+                                                        <p class="additionalCharge">Дополнительно оплачивается</p>
+                                                        <ul class="additionalCharge">
+                                                            <li class="additionalChargeOption">Авиа перелет</li>
+                                                            <li class="additionalChargeOption">Консульский сбор</li>
+                                                            <li class="additionalChargeOption">Страховка</li>
+                                                            <li class="additionalChargeOption">Проживание и питание</li>
+                                                            <li class="additionalChargeOption">Личние расходи</li>
+                                                            <li class="additionalChargeOption">Услуги компании Karandash</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <button class="btnApplyRequest" data-toggle="modal" data-target=".bs-example-modal-lg2">подать заявку</button>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                            <article>
+                                                <div class="row greyBlockOfferRow">
+                                                    <div class="greyBlockOffer">
+                                                        <h1 class="greyBlockOfferTitle">Также рекомендуем посмотреть:</h1>
+                                                        <span class="greyBlockOfferTitleDown">География(по программе указанной выше или цене)</span>
+                                                        <ul class="moreOffer col-md-12">
+                                                            <li>
+                                                                <a href="#">
+                                                                    <img src="image/postImage.jpg" alt=""/>
+                                                                    <div class="recomendationUniversity">
+                                                                        <h2 class="recomendationUniversityName">Toronto Goverment University</h2>
+                                                                        <h3 class="recomendationUniversityPrise">от <span>2433 CAD</span> за курс</h3>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <img src="image/postImage2.jpg" alt=""/>
+                                                                    <div class="recomendationUniversity">
+                                                                        <h2 class="recomendationUniversityName">Toronto Goverment University</h2>
+                                                                        <h3 class="recomendationUniversityPrise">от <span>2433 CAD</span> за курс</h3>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <img src="image/postImage3.jpg" alt=""/>
+                                                                    <div class="recomendationUniversity">
+                                                                        <h2 class="recomendationUniversityName">Toronto Goverment University</h2>
+                                                                        <h3 class="recomendationUniversityPrise">от <span>2433 CAD</span> за курс</h3>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <img src="image/postImage.jpg" alt=""/>
+                                                                    <div class="recomendationUniversity">
+                                                                        <h2 class="recomendationUniversityName">Toronto Goverment University</h2>
+                                                                        <h3 class="recomendationUniversityPrise">от <span>2433 CAD</span> за курс</h3>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <img src="image/postImage2.jpg" alt=""/>
+                                                                    <div class="recomendationUniversity">
+                                                                        <h2 class="recomendationUniversityName">Toronto Goverment University</h2>
+                                                                        <h3 class="recomendationUniversityPrise">от <span>2433 CAD</span> за курс</h3>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <img src="image/postImage3.jpg" alt=""/>
+                                                                    <div class="recomendationUniversity">
+                                                                        <h2 class="recomendationUniversityName">Toronto Goverment University</h2>
+                                                                        <h3 class="recomendationUniversityPrise">от <span>2433 CAD</span> за курс</h3>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="sectionFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-10 col-sm-9 col-xs-12 left-text-footer">
+                            <div class="row">
+                                <div class="more col-md-3 col-sm-4 col-xs-12">
+                                    <h3 class="footerTitle">Узнайте больше о нас:</h3>
+                                    <ul class="moreList">
+                                        <li><a class="pageLink" href="#">О нас</a></li>
+                                        <li><a class="pageLink" href="#">Процес и оплата</a></li>
+                                        <li><a class="pageLink" href="#">Доверие и безопасность</a></li>
+                                        <li><a class="pageLink" href="#">Помощь (FAQ)</a></li>
+                                        <li><a class="pageLink" href="#">Блог</a></li>
+                                        <li><a class="pageLink" href="#">Контакты</a></li>
+                                        <li><a class="pageLink" href="#">Карта сайта</a></li>
+                                    </ul>
+                                </div>
+                                <div class="program col-md-3 col-sm-4 col-xs-12">
+                                    <h3 class="footerTitle">Программы:</h3>
+                                    <ul class="programList">
+                                        <li><a class="pageLink" href="#">Каникулы</a></li>
+                                        <li><a class="pageLink" href="#">Языковые курсы</a></li>
+                                        <li><a class="pageLink" href="#">Среднее образование</a></li>
+                                        <li><a class="pageLink" href="#">Высшее образование</a></li>
+                                        <li><a class="pageLink" href="#">Магистратура</a></li>
+                                        <li><a class="pageLink" href="#">Контакты</a></li>
+                                        <li><a class="pageLink" href="#">Стажировка/Практика</a></li>
+                                        <li><a class="pageLink" href="#">Миграция</a></li>
+                                        <li><a class="pageLink" href="#">Работа</a></li>
+                                    </ul>
+                                </div>
+                                <div class="footer__countries country col-md-3">
+                                    <h3 class="footerTitle">Страны:</h3>
+                                    <div class="footer__countries__wrap">
+                                        <ul class="footer__countries--box mCustomScrollbar">
+                                            <li>Весь мир</li>
+                                            <li>Севереная Америка</li>
+                                            <li>США</li>
+                                            <li>Канада</li>
+                                            <li>Южная Америка</li>
+                                            <li>Бразилия</li>
+                                            <li>Аргентина</li>
+                                            <li>Вся Европа (EU)</li>
+                                            <li>Англия</li>
+                                            <li>Германия</li>
+                                            <li>Польша</li>
+                                            <li>Швеция</li>
+                                            <li>Нидерланды</li>
+                                            <li>Сингапур</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="contactAdress col-md-3 col-sm-4 col-xs-12">
+                                    <div class="contact">
+                                        <h3 class="footerTitle">Наши контакты:</h3>
+                                        <ul class="contactList">
+                                            <li><a href="#" class="pageLink call">МТС (099) 100 10 10</a></li>
+                                            <li><a href="#" class="pageLink call">КС + VIBER (067) 200 20 20</a></li>
+                                            <li><a href="#" class="pageLink call">Skype:MPS</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="adress">
+                                        <h3 class="footerTitle">Наш адрес:</h3>
+                                        <ul class="adressList">
+                                            <li class="pageLink"> г. Киев, пр. Шевченко 18,</li>
+                                            <li class="pageLink">офис №205 (2 эт.)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div id="p_prldr"><div class="contpre"><span class="svg_anm"></span></div></div>
+<div id="mobpanel">
+    <a class="close" href="#"></a>
+    <h3>Узнать больше о нас:</h3>
+    <div class="mobpanelMain"></div>
+</div>
+<div class="modal cssModal fade bs-example-modal-lg1" id="concultation" tabindex="-1" role="dialog"
+     aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg myModal">
+        <div class="row">
+            <div class="col-md-10 col-sm-10 col-xs-12 center">
+                <div class="modal-content cssModalContent">
+                    <form class="consultForm" action="">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button type="button" class="close closeConsult" data-dismiss="modal"
+                                        aria-hidden="true">&times;</button>
+                                <h1 class="consulTitle">ЗАКАЗАТЬ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ</h1>
+                            </div>
+                        </div>
+                        <div class="col-md-11 center">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="btn-Filter">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <span>Удобный способ:</span>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="parentDrop">
+                                                    <input class="dropdown btn-meetOption" type="button"
+                                                           value="по телефону"/>
+                                                    <ul class="dropdown-menu">
+                                                        <li><span class="meetOption meetOption1">по телефону</span></li>
+                                                        <li><span
+                                                                class="meetOption meetOption2">при личной встрече</span>
+                                                        </li>
+                                                        <li><span class="meetOption meetOption3">по email</span></li>
+                                                        <li><span class="meetOption meetOption4">по skype</span></li>
+                                                        <li><span class="meetOption meetOption5">по viber</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-Filter userPhone my-open2">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <span>Контакт:</span>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <input class="dataPerson " type="tel" value=""
+                                                       placeholder="(__) ___ __ __"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-Filter personalMeet open2">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <span>Контакт:</span>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <input class="dataPerson " type="text" value="" placeholder=""/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-Filter userEmail open2">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <span>Контакт:</span>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <input class="dataPerson " type="email" value=""
+                                                       placeholder="email@email"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-Filter userSkype open2">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <span>Контакт:</span>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <input class="dataPerson " type="text" value="" placeholder="skype"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-Filter userViber open2">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <span>Контакт:</span>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <input class="dataPerson " type="text" value="" placeholder="viber"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <button type="submit" class="filter-btnSubmit-white">
+                                        <span class="btn-main-text">ЖДУ СВЯЗИ</span>
+                                        <span>(как можна скорее)</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="propositionTitle">Хотите получить 3 варианта к консультации?<br/><span>(нужна указать вашу цель и интересующею страну)</span>
+                                    </h2>
+                                    <button type="submit" id="btn-open-filter-form" class="btn-submit-white">ДА, КОНЕЧНО</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="row">
+                        <div class="col-md-6 center">
+                            <div class="yesCourseForm">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal cssModal fade bs-example-modal-lg2" id="request" tabindex="-1" role="dialog"
+     aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg myModal">
+        <div class="row">
+            <div class="col-md-10 col-sm-10 col-xs-12 center">
+                <div class="modal-content cssModalContent">
+                    <form class="consultForm" action="">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button type="button" class="close closeConsult" data-dismiss="modal"
+                                        aria-hidden="true">&times;</button>
+                                <h1 class="consulTitle">ХОЧУ ПОДАТЬ ЗАЯВКУ</h1>
+                            </div>
+                        </div>
+                        <div class="col-md-11 center">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="requestModalImage">
+                                        <div class="cover"></div>
+                                        <img src="image/postImage.jpg">
+                                        <h1>Cape Breton University "Diplom"</h1>
+                                        <span class="city">Birmingem</span>
+                                        <p>от <span class="prise">16 000 $</span> в год</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="btn-Filter">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <span>Меня зовут:</span>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <input class="dataPerson " type="text" value="" placeholder=""/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-Filter">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <span>Телефон:</span>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <input class="dataPerson " type="tel" value=""
+                                                       placeholder="(__) ___ __ __"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-Filter">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <span>Емейл:</span>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <input class="dataPerson " type="email" value=""
+                                                       placeholder="example@mail.ua"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-5 center">
+                                    <button type="submit" class="filter-btnSubmit">
+                                        <span class="btn-main-text">ПОДАТЬ ЗАЯВКУ</span>
+                                        <span>(жду ответ можна скорее)</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal cssModal fade bs-example-modal-lg3" id="question" tabindex="-1" role="dialog"
+     aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg myModal">
+        <div class="row">
+            <div class="col-md-10 col-sm-10 col-xs-12 center">
+                <div class="modal-content cssModalContent">
+                    <form class="consultForm" action="">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button type="button" class="close closeConsult" data-dismiss="modal"
+                                        aria-hidden="true">&times;</button>
+                                <h1 class="consulTitle">ХОЧУ СПРОСИТЬ</h1>
+                            </div>
+                        </div>
+                        <div class="col-md-11 center">
+                            <div class="row">
+                                <div class="col-md-7 center">
+                                    <div class="btn-Filter">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <span>Удобный способ:</span>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="btn-Filter">
+                                                    <input class="dropdown btnQuestionDrop" type="button"
+                                                           value="Меня інтересуєт" readonly/>
+                                                    <ul class="dropdown-menu">
+                                                        <li><span class="btnQuestionDropCoice">Европа</span></li>
+                                                        <li><span class="btnQuestionDropCoice">Азия</span></li>
+                                                        <li><span class="btnQuestionDropCoice">Америка</span></li>
+                                                        <li><span class="btnQuestionDropCoice">Англия</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-Filter">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <span>Вопрос:</span>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <textarea class="dataPerson " placeholder=""></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-Filter">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <span>Меня зовут:</span>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <input class="dataPerson " type="text" value="" placeholder=""/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-Filter">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <span>Телефон:</span>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <input class="dataPerson " type="tel" value=""
+                                                       placeholder="(__) ___ __ __"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-Filter">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <span>Емейл:</span>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <input class="dataPerson " type="email" value=""
+                                                       placeholder="example@mail.ua"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-5 center">
+                                    <button type="submit" class="filter-btnSubmit">
+                                        <span class="btn-main-text">ОТПРАВИТ ВОПРОС</span>
+                                        <span>(жду ответ можна скорее)</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal cssModal fade bs-example-modal-lg5" id="search" tabindex="-1" role="dialog"
+     aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content cssModalContent open">
+            <form id="searchForm" class="consultForm" action="">
+                <div class="row">
+                    <div class="col-md-12">
+                        <button type="button" class="close closeConsult" data-dismiss="modal"
+                                aria-hidden="true">×
+                        </button>
+                        <h1 class="consulTitle">Поисковая система MPS</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 center">
+                        <input type="search" class="searchField">
+                        <button type="submit" class="btn-submit-white">НАЙТИ</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="info-block">
+    <div class="container">
+        <a class="close" href="#"></a>
+        <div class="resizeInfoBlock">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>ХОТИТЕ УЕХАТЬ ЗА ГРАНИЦУ?</h1>
+                    <h2>МЫ ПОМОЖЕМ НАЙТИ ЛУЧШИЕ ВАРИАНТЫ ИМЕННО ДЛЯ ВАС!</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-xs-12">
+                    <img src="image/infoIcon1.png" alt="infoIcon1"/>
+                    <p>Укажте приоритет, т.е. что важно <br/> -Как уехать или Куда уехать</p>
+                </div>
+                <div class="col-sm-12 col-xs-12">
+                    <img src="image/infoIcon3.png" alt="infoIcon3"/>
+                    <p>Ваш бюджет</p>
+                </div>
+                <div class="col-sm-12 col-xs-12">
+                    <img src="image/infoIcon2.png" alt="infoIcon2"/>
+                    <p>И какой язык знаете</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>А мы сразу подбурёмоптимальные программы</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-2.2.1.min.js"></script>
+<script src="js/slick/slick.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
+

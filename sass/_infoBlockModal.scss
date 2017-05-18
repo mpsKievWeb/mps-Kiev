@@ -1,0 +1,86 @@
+#info-block {
+  bottom: 300%;
+  width: 100%;
+  position: fixed;
+  height: 100vh;
+  background-color: $orange;
+  background-image: url('../image/svgArrow.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-transition: bottom ease 0.3s;
+  -moz-transition:bottom ease 0.3s;
+  -mz-transition: bottom ease 0.3s;
+  -o-transition: bottom ease 0.3s;
+  transition: bottom ease 0.3s;
+  z-index: 10000;
+  &.open {
+    bottom: 0;
+  }
+  .close {
+    width: 37px;
+    height: 35px ;
+    display: block ;
+    position: absolute ;
+    right: 55px;
+    top: 64px;
+    opacity: 1;
+    &:after, &:before {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 0 ;
+      width: 5px;
+      height: 60px;
+      background: $black !important;
+    }
+    &:after {
+      left: 16px !important;
+      -webkit-transform:rotate(45deg);
+      -moz-transform:rotate(45deg);
+      -mz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+    &:before {
+      right: 16px !important;
+      -webkit-transform:rotate(-45deg);
+      -moz-transform:rotate(-45deg);
+      -mz-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+  }
+  .resizeInfoBlock{
+    display: none;
+    padding-top: 100px;
+    h1,h2{
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 15px;
+      font-family: 'Exo 2', sans-serif;
+      color: $black;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    h1{
+      font-size: 28px;
+      font-weight: 700;
+    }
+    h2{
+      font-size: 24px;
+      font-weight: 100;
+    }
+    img{
+      display: block;
+      width: 100%;
+    }
+    p{
+      margin-top: 15px;
+      margin-bottom: 0;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 16px;
+      color: $black;
+    }
+  }
+}

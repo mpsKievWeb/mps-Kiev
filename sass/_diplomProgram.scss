@@ -1,0 +1,82 @@
+#diplomProgram{
+  .titlePost{
+    color: $grey;
+    font-size: 36px;
+    width: 100%;
+    font-weight: 100;
+    margin-bottom: 0px !important;
+  }
+  .blockMoreRead{
+    .titlePostMore{
+      color: #333333;
+      font-size: 24px;
+      width: 100%;
+      font-weight: 400;
+      margin-bottom: 30px;
+    }
+  }
+  .history_content {
+    padding : 20px;
+    border-bottom: solid lightblue 0.25px;
+  }
+  .sortingPage{
+    line-height: 70px;
+    @media screen and (max-width: 1200px) {
+      display: block;
+      line-height: 36px;
+      height: 100%;
+      .col-md-7,.col-md-5{
+        width: 100% !important;
+      }
+      .col-md-7{
+        margin-bottom: 15px;
+      }
+      .col-md-5{
+        margin-top: 15px;
+      }
+    }
+    @media screen and (max-width: 992px) {
+      margin-bottom: 45px;
+    }
+    @media screen and (max-width: 420px) {
+      margin-bottom: 15px;
+    }
+    p{
+      color: $lightgrey;
+      font-size: 16px;
+      font-family: 'Ubuntu', sans-serif;
+    }
+    .sortingText{
+      float: left;
+      width: 30%;
+      @media screen and (max-width: 420px) {
+        float: none;
+        width: 100%;
+      }
+    }
+    .btn-Filter{
+      width: 100%;
+      float: left;
+      position: relative;
+      @media screen and (max-width: 420px) {
+        float: none;
+        width: 100%;
+      }
+      ul{
+        top:51px;
+      }
+    }
+  }
+  .aboutProgram{
+    @include grey-post-with-image();
+  }
+  .learnMoreAboutProgram{
+    @include btn-toggle-in-right-posts();
+  }
+  .paginationControll{
+    @include pagination-control();
+  }
+  .downloadMoreFile{
+    @include btn-download-more();
+  }
+}

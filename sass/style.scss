@@ -1,0 +1,258 @@
+$icon-font-path: "../bootstrap-sass-master/assets/fonts/bootstrap";
+
+
+
+@import "../bootstrap-sass-master/assets/stylesheets/bootstrap";
+@import "mixins";
+@import "default-variables";
+@import 'diplomProgram';
+@import "abroadEducation";
+@import "programPage";
+@import "footer";
+@import "animate";
+@import "blog";
+@import "reviews";
+@import "bx-slider";
+@import "aboutUniversity";
+@import "about";
+@import "404";
+@import "advice";
+@import "ranges";
+@import "filterSection";
+@import "loader";
+@import "largeSlider";
+@import "littleSlider";
+@import "header";
+@import 'navigationMenu';
+@import "modal";
+@import "infoBlockModal";
+@import "mediaQuery";
+@import "ion.rangeSlider";
+@import "ion.rangeSlider.skinHTML5";
+@import "jquery.fancybox";
+@import "jquery.mCustomScrollbar";
+@import "normalize";
+
+.flex{
+  display: flex;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  position: relative;
+  z-index: 0;
+  overflow-x: hidden;
+}
+.center{
+  float: none !important;
+  margin: 0 auto !important;
+  display: block;
+}
+.hiddens {
+  opacity: 0;
+}
+.visibles {
+  opacity: 1;
+}
+p,h1,h2,h3,h4,h5,h6{
+  cursor: default;
+}
+button,input,a,li{
+  box-shadow: none;
+  outline: 0;
+  outline-offset: 0;
+  outline-style: none;
+  text-decoration: none;
+  list-style: none;
+  &:hover,&:focus,&:visited,&:active{
+    box-shadow: none;
+    outline: 0;
+    outline-offset: 0;
+    outline-style: none;
+    list-style:none;
+    text-decoration: none !important;
+  }
+}
+section{
+  margin-bottom: 40px;
+}
+.navbar-relative-top{
+  position: relative;
+}
+.postsSection{
+  .left-text{
+    float: right;
+    margin: 0px;
+    .postImage{
+      margin: 20px 0px;
+    }
+    .titlePosts{
+      margin:0px;
+      font-family: 'Exo 2', sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      text-align: center;
+      text-transform: uppercase;
+      background-color: rgba(241,204,51,.8);
+      padding: 15px 0px 15px 0px;
+    }
+    .titlePost{
+      margin: 30px 0px 20px 0px;
+      font-family: 'Exo 2', sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      color:#333333 !important;
+    }
+    p{
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 16px;
+      color: $black;
+      margin: 0px;
+    }
+  }
+}
+/////////////////PROGRAM PAGE///////////////////////
+
+.blockMoreRead{
+  .titlePost{
+    color: #333333;
+    font-size: 26px;
+    width: 100%;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+  }
+  .btnMore{
+    float: right;
+    border: 0;
+    background: transparent;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  .moreTextParent{
+    position: relative;
+    height: 100%;
+    margin-bottom: 50px;
+    .moreText{
+
+    }
+    .hiddenBlock{
+      width: 100%;
+      height: 50%;
+      position: absolute;
+      background: $white;
+      bottom: 0;
+      -webkit-box-shadow: 0px -20px 60px 0px rgba(255,255,255,1);
+      -moz-box-shadow: 0px -20px 60px 0px rgba(255,255,255,1);
+      box-shadow: 0px -20px 60px 0px rgba(255,255,255,1);
+    }
+    .visibleBlock{
+      width: 100%;
+      height: 50px;
+      position: absolute;
+      background: $white;
+      bottom: -80px;
+      box-shadow: none;
+      margin-bottom: 30px;
+      .btnMore{
+        display: none;
+      }
+    }
+  }
+}
+.priorityLabel{
+  position: absolute;
+  z-index: 1000;
+  display: block;
+  cursor: pointer;
+  top: 50px;
+  #priority{
+    margin-right: 23px;
+    margin-left: 5px;
+    width: 2px;
+    &:before{
+      content: '';
+      position: absolute;
+      display: block;
+      top: 3px;
+      left: 0;
+      width: 24px;
+      height: 15px;
+      font-size: 12px;
+      background: url(../icon/icon-priority.png) no-repeat 0 0;
+    }
+  }
+}
+#concultation{
+  .priorityLabel{
+    display: none;
+  }
+}
+.hiddens{
+  opacity: 0;
+}
+.visibles{
+  opacity: 1;
+}
+.bolder{
+  font-weight: 700;
+}
+.searchSectionBlock{
+  width: 280px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  @include dynamic-input();
+}
+.programPage{
+  .input-priority{
+    &:before{
+      display: none !important;
+    }
+  }
+  .filter-btnSubmit{
+    margin-top: 30px;
+  }
+}
+
+
+///fixed/////////
+.brandSlider,.slick-list,.slick-track,.slick-slide,.slick-slider{
+  position: relative;
+  z-index: 0;
+}
+.benefits-map, .benefits-diamond, .benefits-like{
+  cursor: pointer;
+
+}
+//dropdown-scroll
+.dropdown-menu{
+  .mCS-rounded-dots{
+    .mCSB_scrollTools{
+      .mCSB_dragger{
+        .mCSB_dragger_bar {
+          width: 15px !important;
+          height: 15px;
+          margin: 0px 2px !important;
+          background-color: #ffd82b;
+        }
+      }
+    }
+  }
+}
+//btn-dropdown open
+.my-open {
+  @include dropdown-open();
+}
+.has-label .control-label{
+  transform: translateY(-35px) translateX(-25px) scale(0.75) !important;
+  font-weight: 700 !important;
+}
+.square{
+  font-weight: 700;
+  &:before {
+    background: $orange !important;
+  }
+}
+
+

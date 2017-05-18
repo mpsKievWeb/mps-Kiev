@@ -1,0 +1,143 @@
+#fourError{
+  .header {
+    height: auto !important;
+    background-image: url(../image/1YE1LLNXGB.jpg)!important;
+    background-position: 100% 100%;
+    background-size: cover;
+  }
+  .filterForm{
+    @media screen and (max-width: 769px){
+      display: block;
+      margin: 0 auto;
+      margin-top: 85px !important;
+    }
+    @media screen and (max-width: 520px){
+      margin-top: 45px !important;
+    }
+
+  }
+  .title-right{
+    position: relative;
+    right: inherit;
+    margin-top: 60px;
+    text-align: left;
+    @media screen and (max-width: 769px){
+      float: left;
+      position: relative;
+      text-align: left;
+      width: 100%;
+      bottom: inherit;
+      right: inherit;
+    }
+  }
+  .hunderdPercent{
+    width: 100%;
+  }
+  .top-title{
+    font-size: 50px;
+    @media screen and (max-width: 520px){
+      margin-top: 30px;
+    }
+  }
+  .body-title{
+    font-size: 18px;
+  }
+  .info-graphic{
+    font-size: 12px;
+    position: relative;
+    width: 195px;
+    @media all and (max-width: 520px){
+      float: none;
+      margin: 0 auto;
+      display: block;
+    }
+    &:before{
+      content: ' ';
+      width: 20px;
+      height: 160px;
+      position: absolute;
+      display: block;
+      bottom: -125px;
+      left: 50px;
+      background-image: url(../icon/icon-error-route-straight.png);
+      background-repeat: no-repeat;
+      background-position: 100% 100%;
+      @media all and (max-width: 991px){
+        bottom: -110px;
+        background-size: 17px;
+        left: 80px;
+      }
+    }
+    &:after{
+      content: ' ';
+      width: 190px;
+      height: 80px;
+      position: absolute;
+      left: -160px;
+      bottom: -88px;
+      display: block;
+      background-image: url(../icon/icon-error-route-curve.png);
+      background-repeat: no-repeat;
+      background-position: 100% 100%;
+      @media all and (max-width: 991px){
+        background-position: 100% 20%;
+        background-size: 140px;
+        left: -110px;
+      }
+      @media screen and (max-width: 769px){
+        display:none;
+      }
+    }
+
+  }
+  .listError404{
+    width: 100%;
+    ul{
+      padding: 0;
+      margin-top: 120px;
+      list-style: none;
+      @media all and (max-width: 991px){
+        margin-top: 100px;
+      }
+      @media all and (max-width: 520px){
+        float: none;
+        text-align: center;
+        margin-top: 140px;
+      }
+      li{
+        a{
+          line-height: 5px;
+          padding: 10px;
+          color: $white;
+          font-family: 'Ubuntu', sans-serif;
+          font-weight: normal;
+          font-size: 12px;
+          &:hover{
+            color: #868584;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 768px){
+    .header .container .headerMain .logo {
+      width: 200px;
+    }
+    #filterFormParent{
+      display: block;
+      margin: 0 auto;
+      float: none;
+    }
+  }
+  @media screen and (max-width: 640px){
+    .header .container .headerMain .logo {
+      width: 200px;
+    }
+  }
+  @media screen and (max-width: 520px){
+    .header .container .headerMain .logo {
+      width: 45px;
+    }
+  }
+
+}

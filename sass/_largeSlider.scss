@@ -1,0 +1,109 @@
+.largeSlider{
+  background-color: $orange;
+  padding: 30px 0px;
+  .sliderTitle{
+    margin: 0px 0px 30px;
+    font-family: 'Exo 2', sans-serif;
+    color: $black;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .small-slick{
+    padding: 0px 40px;
+    margin: 20px 0px;
+    .cols-large{
+      position: relative;
+      width: 575px;
+      margin: 0px 20px 0px 20px;
+      &:focus{
+        outline: none;
+      }
+      .person{
+        position: relative;
+        img{
+          max-width: 100%;
+          display: block;
+        }
+        .personInfo{
+          position: absolute;
+          top: 5px;
+          right: 40px;
+          font-family: $ubuntu;
+          font-weight: 300;
+          font-size: 12px;
+          color: $grey;
+          p{
+            margin: 0px;
+          }
+          .personName {
+            margin-bottom: 0;
+            font-family: 'Exo 2', sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 30px;
+          }
+        }
+        .personStory {
+          position: absolute;
+          right: 0px;
+          bottom: 0px;
+          padding: 25px 15px 10px 15px;
+          font-weight: 200;
+          .readMore{
+            @include btn-transparent-black();
+            @include transition();
+          }
+          .storyTitle{
+            display: inline-block;
+            padding: 0 10px;
+            color: $white;
+            background-color: rgba(66,63,58,.7);
+            font-weight: 400;
+            text-transform: none;
+            margin: 0px 0px 12px 0px;
+            font-size: 24px !important;
+          }
+          p{
+            display: inline-block;
+            padding: 0 10px;
+            color: $white;
+            background-color: rgba(66,63,58,.7);
+            font-size: 16px;
+            font-family: 'Exo 2', sans-serif;
+            font-weight: 400;
+
+          }
+        }
+        .second-personInfo{
+          color: $white;
+        }
+        .second-personStory{
+          color: $black !important;
+          h3,p{
+            background-color: rgba(255,255,255,.7) !important;
+            color: $black !important;
+            font-weight: 400;
+          }
+          .readMore{
+           @include btn-transparent-white()
+          }
+        }
+      }
+    }
+    .my-prev{
+      @include slider-arrow();
+      top: 50%;
+      left: 12px;
+      background: url(../icon/Image_from_Skype.png) no-repeat center rgba(79, 82, 83, 0.7);
+    }
+    .my-next{
+      @include slider-arrow();
+      top: 50%;
+      right: 12px;
+      background: url(../icon/icon-link-arrow-right-brown.png) no-repeat center rgba(79, 82, 83, 0.7);
+    }
+  }
+}

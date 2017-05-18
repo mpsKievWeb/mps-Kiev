@@ -1,0 +1,264 @@
+.header {
+  height: auto !important;
+  background: url("../image/header_bg.jpeg") no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  .headerMain {
+    display: block;
+    padding-bottom: 25px;
+    .title-right {
+      float: right;
+      text-align: right;
+      bottom: 0;
+      position: absolute;
+      right: 0;
+      margin-bottom: 8px;
+      .top-title, .body-title {
+        display: inline-block;
+        margin: 0;
+        margin-bottom: 18px;
+        font-family: 'Exo 2', sans-serif;
+        color: $black;
+        text-transform: uppercase;
+        background-color: rgba(241, 204, 51, 0.8);
+        padding: 10px 20px 10px 20px;
+      }
+      .top-title {
+        font-size: 28px;
+        font-weight: 700;
+      }
+      .body-title {
+        font-size: 24px;
+        font-weight: 100;
+      }
+    }
+    .headerFilter {
+      .logo {
+        margin-top: 10px;
+      }
+    }
+    .filterForm {
+      width: 320px;
+      margin-top: 20px;
+      padding-top: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 300;
+      position: relative;
+      color: $black;
+      background-color: rgba(255, 255, 255, 0.7);
+      border: 1px solid rgba(158, 158, 158, 0.7);
+      h3 {
+        display: block;
+        font-weight: 700;
+        color: $lightgrey;
+        margin: 10px 0px 30px 0px;
+      }
+      .btn-Filter {
+        .min {
+          position: absolute;
+          left: 0;
+        }
+        .max {
+          position: absolute;
+          right: 0;
+        }
+        .range-degree {
+          position: absolute;
+          width: 100%;
+          height: 3px;
+          bottom: 9px;
+          background: url(../icon/range-degree.png) repeat-x 7px 0;
+          background-size: 30px 100%;
+        }
+        .tooltip {
+          font-size: 16px !important;
+          font-weight: 700;
+        }
+        .tooltip-inner {
+          background: none !important;
+          color: $orange !important;
+          position: relative;
+          top: -5px;
+        }
+        .tooltip-arrow {
+          display: none !important;
+        }
+        &:nth-child(2), &:nth-child(3) {
+          margin: 0;
+        }
+      }
+      .filter-btnSubmit {
+        @include filter-btnSubmit();
+      }
+      .why-priority {
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        .filter-link {
+          width: 100%;
+          font-size: 12px;
+          color: $black;
+          text-align: right;
+          display: block;
+          font-family: $ubuntu;
+          font-weight: 300;
+          @include transition();
+          &:hover {
+            opacity: 0.8;
+          }
+          &:active {
+            font-size: 13px;
+          }
+        }
+      }
+      .input-holder {
+        position: relative;
+        width: 100%;
+        margin: 15px 0;
+      }
+      .input-priority:before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: -20px;
+        left: -35px;
+        width: 33px;
+        height: 69px;
+        background: url(../icon/icon-priority-route.png) no-repeat 0 0;
+        z-index: 1;
+      }
+    }
+    .info-graphic {
+      @include btn-transparent-white();
+      @include transition();
+    }
+  }
+}
+
+.btn-Filter {
+  margin-bottom: 20px;
+  position: relative;
+  .dropdown{
+    @include btn-dropdown();
+    @include transition();
+  }
+  .dropdown-menu{
+    @include dropdown-menu();
+    border:1px solid $orange;
+    border-radius: 0;
+  }
+  .footer__countries__wrap .footer__countries--box li:hover {
+    cursor: pointer;
+    background-color: transparent !important;
+  }
+  .dropdown-menu {
+    .input-group-square{
+      @include checkbox-group($null);
+    }
+    .input-group-circle{
+      @include checkbox-group($fifty);
+    }
+    .input-square{
+      @include checkbox-only-one($null);
+    }
+    .input-circle{
+      @include checkbox-only-one($fifty);
+    }
+    .footer__countries__wrap {
+      .footer__countries--box, .mCustomScrollbar {
+        background: transparent !important;
+      }
+    }
+    .openListGroup{
+      label {
+        input[type="checkbox"]:checked {
+          font-weight: 700;
+          &:before {
+            background: $orange !important;
+          }
+        }
+      }
+      .mainCheckboxInList{
+
+        input{
+          font-weight: 700;
+          &:before {
+            background: $orange !important;
+          }
+        }
+      }
+      .list-group-variant{
+        display: block !important;
+        padding-left: 30px;
+      }
+    }
+    .list-group-variant{
+      display: none;
+    }
+  }
+}
+.benefitsChild {
+  text-align: right;
+    @include respond-to(tablets-portrait) {
+        text-align: center;
+        width: 100%;
+        background: $orange ;
+        padding: 15px;
+    }
+  .benefits {
+    font-family: $ubuntu;
+    color: $grey;
+    width: 100%;
+    .benefits-map {
+      background: url("../icon/benefits-map.png") no-repeat;
+      width: 140px;
+      margin: $large-spacer;
+    }
+    .benefits-diamond {
+      background: url("../icon/benefits-transparent.png") no-repeat;
+      width: 170px;
+      margin: $large-spacer;
+    }
+    .benefits-like {
+      background: url("../icon/benefits-avaliable.png") no-repeat;
+      width: 155px;
+      margin: $large-spacer 0 $large-spacer $large-spacer;
+      @include respond-to(phones-landscape) {
+        margin: 0 auto;
+      }
+    }
+    .benefits-map, .benefits-diamond, .benefits-like {
+      background-position: 0;
+      display: inline-block;
+      @include transition();
+      &:hover {
+        @include transition();
+        transform: scale(1.1);
+      }
+      @include respond-to(tablets-portrait) {
+        width: 25%;
+      }
+      @include respond-to(phones-landscape) {
+        display: block;
+        width: 200px;
+        background-position: 1%;
+        padding-left: $largest-spacer;
+        margin: 0 auto;
+        margin-bottom: $regular-spacer ;
+        margin-top: $regular-spacer ;
+        text-align: left;
+      }
+      p {
+        margin: 0;
+        &:first-child {
+          font-size: $FS-little;
+        }
+        &:last-child {
+          font-size: $FS-very-little;
+        }
+      }
+    }
+  }
+}

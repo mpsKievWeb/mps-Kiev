@@ -1,0 +1,86 @@
+.aboutUniversity{
+  .postsSection{
+    p{
+      margin: 0 !important;
+    }
+  }
+  .aboutProgram {
+    .flex {
+      margin-left: 15px;
+      border: 0 solid transparent;
+    }
+    .aboutProgramPartText{
+      background: transparent !important;
+    }
+  }
+  .parentField{
+    margin-top: 20px;
+    img{
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 768px){
+    .aboutProgramPartText {
+      padding-bottom: 15px !important;
+      padding-right: 0px;
+      padding-left: 0px !important;
+      margin-top: 15px;
+    }
+  }
+
+  .priseStart{
+    margin: 20px 0px 20px 0px;
+    display: block;
+    font-family: $ubuntu;
+    font-size: 16px;
+    color: $black;
+  }
+  .additionalCharge{
+    padding: 0;
+    list-style: none;
+    li{
+      display: block;
+      font-family: $ubuntu;
+      font-size: 16px;
+      color: $black;
+    }
+  }
+  .btnApplyRequest{
+    display: block;
+    margin: 0 auto;
+    width: 210px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: $ubuntu;
+    background: url(../icon/icon-link-arrow-right-brown.png) no-repeat 96% $orange;
+    padding: 10px 15px;
+    margin-bottom: 60px;
+    border: 0;
+    font-weight: 100;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: $black;
+    @include transition();
+    &:hover{
+      background: url(../icon/icon-link-arrow-right-brown.png) no-repeat 96% $grey;
+      color: $orange;
+    }
+  }
+  .btnQuestion{
+    display: block;
+    width: 255px;
+    margin: 0;
+    line-height: 20px;
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Exo 2', sans-serif;
+    background: url(../icon/icon-link-arrow-right-brown.png) no-repeat $orange;
+    background-position: 96%;
+    padding: 10px 15px;
+    border: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #201601;
+  }
+}

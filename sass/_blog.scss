@@ -1,0 +1,388 @@
+.blog{
+  .btnShowFilterForm{
+    width: 320px;
+    margin: $regular-spacer 0 $regular-spacer 0;
+    font-family: $exo2;
+    font-size: $FS-middle+6px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: $black;
+    text-align: center;
+    background: $orange;
+    border:transparent;
+    outline:none;
+    padding: $small-spacer;
+    @media screen and (max-width: 1200px){
+      width: 250px;
+    }
+    @media screen and (max-width: 991px){
+      width: 330px;
+    }
+    @media screen and (max-width: 900px){
+      width: 260px;
+    }
+    @media screen and (max-width: 768px){
+      width: 280px;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: $regular-spacer;
+      margin-top: $regular-spacer;
+    }
+  }
+  .navigationPanelLeft{
+    width: 320px;
+    margin-top: $small-spacer*2;
+    padding-top: $regular-spacer;
+    padding-left: $regular-spacer;
+    padding-right: $regular-spacer;
+    font-family: $ubuntu;
+    font-weight: 300;
+    position: relative;
+    color: $black;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(158, 158, 158, 0.7);
+    @media screen and (max-width: 1200px){
+      width: 250px;
+    }
+    @media screen and (max-width: 991px){
+      width: 330px;
+    }
+    @media screen and (max-width: 900px){
+      width: 260px;
+    }
+    @media screen and (max-width: 768px){
+      width: 280px;
+      display: block;
+      margin: 0 auto;
+      margin-top: $small-spacer*2;
+    }
+    @media screen and (max-width: 640px){
+      margin-top: $largest-spacer;
+      width: 100%;
+    }
+    h3{
+      display: block;
+      color: $lightgrey;
+      margin: $small-spacer 0 $xlarge-spacer 0;
+      font-family: $exo;
+    }
+    .navigationList{
+      text-align: left;
+      padding: 0;
+      list-style: none;
+      .menu-item {
+        display: block;
+        float: left;
+        clear: left;
+        width: 100%;
+        margin: $small-spacer 0;
+        @media screen and (max-width: 1400px){
+          width: 120%;
+        }
+        @media screen and (max-width: 1200px){
+          width: 127%;
+        }
+        @media screen and (max-width: 991px){
+          width: 100%;
+        }
+         .menu-link {
+          position: relative;
+          display: block;
+          line-height: 35px;
+          padding-left:$xlarge-spacer;
+          font-size: $FS-little;
+          color: $grey;
+           text-decoration: none;
+           transition: all 0.2s ease-out;
+           &:hover {
+             font-weight: 700;
+             color: $black;
+             background: $orange url(../icon/icon-link-arrow-right-brown.png) no-repeat 5px 50%;
+           }
+        }
+        .current{
+          font-family: $exo2;
+          font-weight: 700;
+          color: $black;
+          background: $orange url(../icon/icon-link-arrow-right-brown.png) no-repeat 5px 50%;
+        }
+      }
+    }
+  }
+  .filterForm{
+    display: none !important;
+  }
+  .cssModal{
+    .filterForm{
+      display: block;
+    }
+  }
+  .left-text {
+    p{
+      margin-bottom: $regular-spacer !important;
+    }
+    .article-wrapper {
+      border-bottom: 7px solid $orange;
+    }
+    .decorated-heading {
+      margin: 0 0 $small-spacer*2;
+      font-family: $exo2;
+      font-size: $FS-large+2;
+      color: $black;
+      line-height: 1.125;
+      font-weight: 500;
+      display: inline-block;
+      padding: $regular-spacer 25px $regular-spacer $small-spacer*2;
+      background-color: rgba(241,204,51,.8);
+    }
+    .article-author{
+      p{
+        font-weight: 300;
+        color: $lightgrey;
+        font-size: $FS-little;
+        margin: 0;
+        margin-bottom: $regular-spacer;
+        font-family: $ubuntu;
+        line-height: 1.7;
+      }
+    }
+    .article-exerpt{
+      p{
+        font-style: italic;
+        margin: 0;
+        margin-bottom: $regular-spacer;
+        color: $black;
+        font-weight: 300;
+        font-size: $FS-little;
+        font-family: $ubuntu;
+        line-height: 1.7;
+      }
+    }
+    .article-preview-image{
+      width: 100%;
+      margin-bottom: $regular-spacer;
+      vertical-align: middle;
+    }
+    .social-block{
+      color: $lightgrey;
+      font-weight: 300;
+      font-size: $FS-little;
+      font-family: $ubuntu;
+      line-height: 1.7;
+    }
+    .social-block-icons{
+      .social-icon-wrapper{
+        display: inline-block;
+        .social-icon-holder{
+          position: relative;
+          display: inline-block;
+          margin: 0 $regular-spacer;
+          text-decoration: none;
+          outline: none;
+          background-color: transparent;
+          color: $lightgrey;
+          .socail-icon {
+            position: relative;
+            display: inline-block;
+            top: 4px;
+            height: 20px;
+            &:after{
+              content: '';
+              display: inline-block;
+              width: 100%;
+              height: 20px;
+              background: url(../icon/sprite-social-icons.png) no-repeat ;
+            }
+          }
+          .icon-facebook{
+            width: 15px;
+            &:after{
+              background-position: 0 0;
+            }
+          }
+          .icon-vkontakte{
+            width: 25px;
+            &:after {
+              background-position: -15px 4px;
+            }
+          }
+          .icon-twitter{
+            width: 22px;
+            &:after {
+              background-position: -41px 2px;
+            }
+          }
+          .icon-pocket{
+            width: 22px;
+            &:after {
+              background-position: -63px 4px;
+            }
+          }
+        }
+      }
+    }
+    .article-quote{
+      display: inline-block;
+      margin: 0 0 $regular-spacer $small-spacer*5;
+      padding: $regular-spacer $small-spacer*10 $regular-spacer $xlarge-spacer;
+      border-left: 6px solid $orange;
+      font-family: $ubuntu;
+      color: $black;
+      font-size: $FS-little;
+      line-height: 1.7;
+      @media screen and (max-width: 768px){
+        margin: 0 0 $regular-spacer 0;
+        padding: $regular-spacer;
+      }
+    }
+    .article-content-image{
+      margin-bottom: $regular-spacer;
+      width: 100%;
+      vertical-align: middle;
+    }
+    .social-counter{
+      position: relative;
+      top: 50%;
+      left: 25%;
+      display: inline-block;
+      min-width: 50%;
+      height: 25px;
+      margin-top: -12px;
+      padding: 0 5px;
+      font-size: $FS-little;
+      color: $white;
+      text-align: center;
+      border-left: 1px solid $lightgrey;
+      vertical-align: top;
+    }
+    .social-block-buttons{
+      float: none;
+      margin-bottom: $xlarge-spacer;
+      padding: $xlarge-spacer $xlarge-spacer $regular-spacer;
+      background-color: #eeeeee;
+      .icon-single {
+        width: 11%;
+      }
+      .social-icon-wrapper {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 0;
+        text-align: center;
+        .social-icon-holder {
+          width: 120px;
+          height: 40px;
+          position: relative;
+          display: inline-block;
+          margin: 0 7px $regular-spacer;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+        .socail-icon {
+          top: 0;
+          width: 40%;
+          height: 40px;
+          &:after {
+            position: absolute;
+            left: 25%;
+            top: 50%;
+            content: '';
+            display: inline-block;
+            width: 100%;
+            height: 20px;
+            background-image: url(../icon/sprite-social-icons.png);
+            background-repeat: no-repeat;
+          }
+        }
+        .icon-holder-facebook {
+          background-color: #265f95;
+          .icon-facebook:after {
+            margin-top: -10px;
+            margin-left: -5px;
+            background-position: 0 -23px;
+            width: 10px;
+          }
+        }
+        .icon-holder-vkontakte {
+          background-color: #4881a1;
+          .icon-vkontakte:after {
+            margin-top: -4px;
+            margin-left: -12px;
+            background-position: -15px -23px;
+            width: 23px;
+          }
+        }
+        .icon-holder-pocket {
+          background-color: #e46061;
+          .icon-pocket:after {
+            width: 20px;
+            margin-top: -7px;
+            margin-left: -10px;
+            background-position: -64px -23px;
+          }
+        }
+        .icon-holder-twitter {
+          background-color: #00acdd;
+          .icon-twitter:after {
+            margin-top: -6px;
+            margin-left: -9px;
+            background-position: -41px -22px;
+            width: 18px;
+          }
+        }
+        .icon-holder-google {
+          background-color: #de513a;
+          .icon-google:after {
+            width: 22px;
+            margin-top: -5px;
+            height: 66px;
+            margin-left: -10px;
+            background-position: -87px -22px;
+          }
+        }
+      }
+    }
+    .readOnly{
+      .parentField{
+        border: 1px solid transparent;
+        margin-bottom: $regular-spacer;
+        @include transition();
+        &:hover{
+          border: 1px solid $orange;
+        }
+      }
+      .article-readmore-content {
+        display: block;
+        max-height: 44px;
+        margin-bottom: $regular-spacer;
+        margin-top: $regular-spacer;
+        padding: 0 10px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        p{
+          font-family: $exo2;
+          color: $grey;
+        }
+      }
+      img{
+        width: 100%;
+      }
+    }
+  }
+  @media screen and (max-width: 991px){
+    .header .container .headerMain .logo {
+      top: -5px;
+    }
+  }
+  @media screen and (max-width: 768px){
+    .header .container .headerMain .logo {
+      width: 200px;
+    }
+  }
+  @media screen and (max-width: 640px){
+    .header .container .headerMain .logo {
+      width: 200px;
+    }
+  }
+}

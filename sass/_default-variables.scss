@@ -1,0 +1,178 @@
+/**
+ * Default Variables.
+ *
+ * Modify this file to provide default Bootstrap Framework variables. The
+ * Bootstrap Framework will not override any variables defined here because it
+ * uses the `!default` flag which will only set their default if not already
+ * defined here.
+ *
+ * You can copy existing variables directly from the following file:
+ * ./THEMENAME/bootstrap/assets/stylesheets/bootstrap/_variables.scss
+ */
+//percent Varibles
+$null:0%;
+$fifty:50%;
+$hundred:100%;
+//// Main  colors
+$orange: #f1cc33;
+$white: #ffffff;
+$grey:#4f5253;
+$grey-middle:#666666;
+$black: #201600;
+$lightgrey: #9e9e9e;
+$simplegrey: #f5f5f5;
+$transparent: transparent;
+
+//// Theme font-size (use theme for styling!)
+
+$FS-very-little: 12px;
+$FS-little:16px;
+$FS-middle: 18px;
+$FS-large: 30px;
+$FS-very-large:40px;
+
+$exo2:'Exo 2', sans-serif;
+$exo:'Exo', sans-serif;
+$ubuntu:'Ubuntu', sans-serif;
+
+
+// Main dimensions
+// margins / paddings
+$small-spacer: 10px;
+$regular-spacer: 15px;
+$large-spacer: $small-spacer*2;
+$xlarge-spacer: $regular-spacer*2;
+$xxlarge-spacer: $regular-spacer*3;
+$largest-spacer: $regular-spacer*4;
+
+
+
+
+//// Set the proper directory for the Bootstrap Glyphicon font.
+//$icon-font-path: '../fonts/bootstrap/';
+
+//$white: #ffffff;
+//$black: #000000;
+//
+//$blue: #01579B;
+//$light-blue: #039be5;
+//$dark-blue: #345671; //#3D5E78;
+//$darkest-blue: #022c4e;
+//$orange: #ffc107;
+//$dark-orange: #FC5B02;
+//$light-gray: #f8f9fb;
+//$gray: #E9ECF2;
+//$dark-gray: #757575;
+//$yellow: #ffd54f;
+//// Theme colours (use theme for styling!)
+//$inverse-color: $white;
+//$main-blue: $blue;
+//$brand-color: $main-blue;
+//// Main  text colors
+//$primary-text-color: $dark-blue;
+//$inverse-text-color: $white;
+//$accordion-list-bg: $yellow;
+////Main Font-Size Text
+//$small-font-size: 12px;
+//$font-size: 18px;
+//$large-font-size: 20px;
+//$h2-font-size: 34px;
+//$h1-font-size: 45px;
+
+//$font-size-base: $font-size;
+//
+//$subtitle-size: $h2-font-size;
+//$title-size: $h1-font-size;
+//$body-font-color: $dark-blue;
+//
+//$font-weight-bold:bold;
+//$font-weight-normal:normal;
+//$font-weight-bolder:500;
+//
+
+//
+////heights
+//$nav-bar-height: $small-spacer*7;
+////line-height and height
+//$main-text-line-height: $small-spacer*4;
+//$accordion-list-height: $largest-spacer;
+//$toggle-width: $xxlarge-spacer;
+////fonts
+//$logo-font-family: 'Josefin Sans';
+//$heading-font-family-medium: 'SemplicitaPro', sans-serif;
+//$heading-font-family-light: 'SemplicitaPro-Light', sans-serif;
+//$heading-font-family-semibold: 'SemplicitaPro-Semibold', sans-serif;
+//$heading-font-family-bold: 'SemplicitaPro-Bold', sans-serif;
+//
+//$font-family-sans-serif: 'PT Sans', sans-serif;
+//$body-font-family: $font-family-sans-serif;
+//
+////Bootstrap default overrides
+//$navbar-height: $small-spacer*7;
+//$logo-font-size: 30px;
+//$content-large-padding: 180px;
+////BS Overrides
+//$grid-gutter-width: 0 !default;
+//// Large screen / wide desktop overrides
+//$screen-lg: 1280px !default;
+//$container-large-desktop: 1260px!default;
+//$container-lg: $container-large-desktop !default;
+//$container-sm: 100%;
+//$container-md: 100%;
+//
+//
+//
+//// SLICK Slider Default Variables
+//
+//// Slick icon entity codes outputs the following
+//// "\2190" outputs ascii character "←"ffd54f
+//// "\2192" outputs ascii character "→"
+//// "\2022" outputs ascii character "•"
+//
+//$slick-font-path: "../fonts/" !default;
+//$slick-font-family: "slick" !default;
+//$slick-loader-path: "../images/" !default;
+//$slick-arrow-color: transparent !default;
+//$slick-dot-color: $inverse-text-color !default;
+//$slick-dot-color-active: $orange !default;
+//$slick-prev-character: "\2190" !default;
+//$slick-next-character: "\2192" !default;
+//$slick-dot-character: "\2022" !default;
+//$slick-dot-size: $large-spacer !default;
+//$slick-opacity-default: 0.85 !default;
+//$slick-opacity-on-hover: 0.85 !default;
+//$slick-opacity-not-active: 1 !default;
+//
+//
+//
+////Material Inputs
+//
+//$shadow-inset: inset 0 2px 2px 0 rgba(0, 0, 0, .14);
+//$shadow-0: 0 0 1px rgba(0, 0, 0, 0);
+//$shadow-2: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+//$shadow-3: 0 3px 4px 0 rgba(0, 0, 0, .14), 0 3px 3px -2px rgba(0, 0, 0, .2), 0 1px 8px 0 rgba(0, 0, 0, .12);
+//$shadow-4: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2);
+//$shadow-6: 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12), 0 3px 5px -1px rgba(0, 0, 0, .2);
+//$shadow-8: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
+//
+//// Font Sizes
+//$md-font-size: $font-size-base !default;
+//$md-active-font-size: $md-font-size * 0.8 !default;
+//$md-active-top: -$regular-spacer*1.25 !default;
+//
+//// Margin & Paddings
+//
+//$md-spacer: $md-font-size / 8 !default;
+//$md-fieldset-margin: 0 0 $regular-spacer * 2 !default;
+//$md-checkbox-gap: $md-font-size * 2 !default;
+//$md-checkbox-top: 3px !default;
+//$md-radio-margin: $md-font-size / -4 !default;
+//
+//// Colors
+//$md-input-color: $primary-text-color !default;
+//$md-border-color: $primary-text-color !default;
+//$md-label-color: lighten($md-border-color, 10%) !default;
+//$md-active-color: $primary-text-color;
+//$md-focus-color: $primary-text-color !default;
+//$md-error-color: red !default;
+//$md-transition-speed: 0.28s !default;

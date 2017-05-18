@@ -1,0 +1,208 @@
+#concultation, #request, #question, #search {
+  .cssModalContent {
+    padding: $regular-spacer;
+    border: 1px solid $orange;
+    .filter-btnSubmit {
+      @include filter-btnSubmit();
+    }
+    .filter-btnSubmit-white {
+      @include filter-btnSubmit($white, $orange);
+    }
+    .filterForm {
+      display: none;
+      h3, .why-priority {
+        display: none;
+      }
+      .btn-Filter {
+        margin-bottom: $regular-spacer;
+        position: relative;
+      }
+      .btn-main-text {
+        line-height: 23px !important;
+      }
+    }
+    .consultForm {
+      border-radius: 2px;
+      padding: $regular-spacer $regular-spacer - 5px;
+      position: relative;
+      .consulTitle {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: $regular-spacer;
+        font-family: $exo2;
+        color: $grey;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 28px;
+        font-weight: 700;
+      }
+      .propositionTitle {
+        display: block;
+        margin: 0 auto;
+        font-family: $exo2;
+        color: $grey;
+        text-align: center;
+        margin-top: $xlarge-spacer;
+        margin-bottom: $regular-spacer;
+        font-size: $FS-middle + 4px;
+        font-weight: 400;
+        span {
+          font-size: $FS-middle;
+          font-family: $ubuntu;
+        }
+      }
+      .btn-Filter {
+        line-height: 35px;
+        margin-bottom: $regular-spacer;
+        span {
+          font-family: $ubuntu;
+          font-size: $FS-middle;
+          color: $grey;
+          margin: 0 !important;
+        }
+        .userPhone, .personalMeet, .userEmail, .userSkype, .userViber {
+          background-image: none !important;
+        }
+      }
+      .dataPerson {
+        width: 100%;
+        text-align: left;
+        padding-left: 10px;
+        cursor: pointer;
+        font-family: $exo2;
+        font-weight: 300;
+        font-size: $FS-middle;
+        outline: none;
+        color: $grey-middle;
+        line-height: 34px;
+        border: 1px solid rgba(158, 158, 158, .7);
+        @include transition();
+        &:hover {
+          border: 1px solid $orange;
+          color: $black;
+        }
+      ;
+      }
+    }
+
+  }
+  .personalMeet, .userViber, .userSkype, .userEmail {
+    display: none;
+  }
+}
+
+.myModal {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.modal-open {
+  padding-right: 0 !important;
+  .cssModal {
+    padding-right: 0 !important;
+    width: calc(100% + 15px);
+    background: $white !important;
+    z-index: 10000;
+    .cssModalContent {
+      box-shadow: 0 0 0 rgba(251, 251, 251, 1);
+      border: 0;
+      margin-top: $large-spacer;
+      margin-bottom: $large-spacer;
+    }
+  }
+}
+
+#question, #request {
+  textarea {
+    resize: none;
+    height: 250px !important;
+  }
+  .requestModalImage {
+    position: relative;
+    height: 200px;
+    width: $hundred;
+    display: block;
+    margin-bottom: $large-spacer;
+    margin-top: -20px;
+    .cover {
+      background: rgba(251, 251, 251, 0.6);
+      position: absolute;
+      z-index: 1;
+      width: $hundred;
+      height: $hundred;
+    }
+    img {
+      position: absolute;
+      width: $hundred;
+      height: $hundred;
+      z-index: 0;
+    }
+    h1 {
+      padding: 0;
+      line-height: $large-spacer;
+      position: relative;
+      z-index: 2;
+      color: $grey;
+      top: $regular-spacer * 4;
+      left: $regular-spacer;
+      font-size: $FS-middle + 4px;
+      margin-bottom: $large-spacer;
+      font-family: $exo2;
+    }
+    p {
+      font-size: $FS-middle + 4px;
+      position: relative;
+      top: 60px;
+      left: $regular-spacer;
+      z-index: 2;
+      font-family: $ubuntu;
+      margin-bottom: $small-spacer;
+      .prise {
+        font-weight: 700;
+        font-size: $FS-middle;
+      }
+    }
+    .city {
+      position: relative;
+      z-index: 2;
+      top: 54px;
+      left: $regular-spacer;
+      font-family: $ubuntu;
+      font-size: $FS-little;
+    }
+  }
+
+}
+
+.btn-submit-white {
+  @include btn-submit-white()
+}
+
+#search {
+  background: transparent !important;
+}
+
+.btn-meetOption {
+  &:hover {
+    border: 1px solid $orange;
+  }
+}
+
+.parentDrop {
+  .dropdown-menu {
+    width: calc(100% - 30px);
+    left: 15px;
+    box-shadow: none !important;
+    border: 1px solid $orange;
+    border-radius: 0;
+    margin: -2px 0px;
+    .meetOption {
+      @include transition();
+      padding-left: 10px;
+      &:hover {
+        background: $grey;
+        color: $white !important;
+      }
+    }
+  }
+}

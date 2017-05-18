@@ -1,0 +1,25 @@
+#p_prldr{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right:0;
+  bottom:0;
+  background: $orange;
+  z-index: 3000;
+  .svg_anm {
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    background: url("../image/three-dots.svg") center center no-repeat;
+    background-size: 120px 30px;
+  }
+  .contpre{
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    left: 50%;top: 50%;
+    margin-left:-60px;
+    margin-top:-15px;
+  }
+}
+.contpre small{font-size:25px;}

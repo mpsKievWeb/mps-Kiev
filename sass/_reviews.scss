@@ -1,0 +1,234 @@
+.reviews {
+  .stories-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 7px 0 18px;
+    text-align: center;
+    background-color: #f6d133;
+    margin-bottom: 30px;
+    @media all and (max-width: 1024px){
+      height: 667px !important;
+    }
+    @media all and (max-width: 991px){
+      margin-bottom: 50px;
+    }
+    @media all and (max-width: 520px){
+      margin-bottom: 100px;
+    }
+    @media all and (max-width: 420px){
+      margin-bottom: 120px;
+    }
+    @media all and (max-width: 320px){
+      margin-bottom: 140px;
+    }
+    .stories-slider-full-sized-wrapper {
+      margin-bottom: -18px;
+      @media all and (max-width: 991px){
+          height: 100% !important;
+      }
+      .bx-wrapper {
+        max-width: 100% !important;
+        @media all and (max-width: 991px){
+          height: 100% !important;
+        }
+        .bx-viewport {
+          padding-bottom: 100px;
+          -webkit-box-sizing: content-box;
+          -moz-box-sizing: content-box;
+          box-sizing: content-box;
+          left: 0;
+          background: transparent;
+          box-shadow: none;
+          border: none;
+          @media all and (max-width: 991px){
+            height: 100% !important;
+          }
+          @media all and (max-width: 1200px){
+            padding-bottom: 30px;
+          }
+          .stories-slider-full-sized{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            @media all and (max-width: 991px){
+              height: 100% !important;
+            }
+            .stories-item{
+              @media all and (max-width: 991px){
+                height: 100% !important;
+              }
+              .slider-image {
+                position: absolute;
+                width: 100%;
+                max-width: 100%;
+                display: block;
+                vertical-align: middle;
+                border-style:none;
+                @media all and (max-width: 991px){
+                  height: 100% !important;
+                }
+              }
+              .container{
+                text-align: right;
+                .stories-top-content {
+                  position: relative;
+                  right: 0;
+                  display: inline-block;
+                  margin: 0 100px 40px 0;
+                  top: 4px;
+                  max-width: 160px;
+                  font-family: 'Ubuntu', sans-serif;
+                  font-weight: 300;
+                  font-size: 12px;
+                  color: #423f3a;
+                  text-align: left;
+                  line-height: 1.125;
+
+                }
+                .stories-main-content {
+                  position: relative;
+                  left: 0;
+                  bottom: 0;
+                  font-size: 16px;
+                  font-weight: 200;
+                  color: #fff;
+                  text-align: left;
+                  line-height: 1.4;
+                  margin-left: 260px;
+                  @media all and (max-width: 1200px){
+                    margin-left: 0px;
+                  }
+                  .stories-main-content-full{
+                    padding: 15px;
+                    background-color: rgba(255,255,255,.7);
+                    @media all and (max-width: 1024px){
+                      height: 300px;
+                      overflow: auto;
+                    }
+                    .stories-main-content-text {
+                      display: block;
+                      max-height: 100%;
+                      margin-bottom: 20px;
+                      padding: 0;
+                      color: #000;
+                      background-color: transparent;
+                      overflow: hidden;
+                    }
+                  }
+                  .sub-heading {
+                    background-color: #f5d033;
+                    max-width: 81.25345622119815668202764976959%;
+                    margin: 0 0 23px 40px;
+                    padding-bottom: 7px;
+                    font-size: 32px;
+                    font-weight: 700;
+                    color: $black;
+                    display: inline-block;
+                    padding: 0 10px;
+                    text-transform: none;
+                    line-height: 1.5;
+                    font-family: $exo2;
+                    @media all and (max-width: 781px){
+                      font-size: 22px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .bx-controls {
+          position: absolute;
+          top: 173px;
+          left: 0;
+          right: 0;
+          width: 100%;
+          margin: 0 auto;
+          @media all and (max-width: 781px){
+            top: 115px;
+          }
+          .bx-prev,.bx-next{
+            top: 0;
+            margin-top: 0;
+            position: absolute;
+            display: block;
+            width: 40px;
+            height: 40px;
+            text-decoration: none;
+            font-size: 0px;
+            text-indent: -9999px;
+          }
+          .bx-prev {
+            left: auto;
+            right: 76px;
+            text-indent: -9999px;
+            background: url(../icon/Image_from_Skype.png) no-repeat rgba(79, 82, 83, 0.7) center;
+            @include transition();
+            &:hover{
+              background: url(../icon/Image_from_Skype.png) no-repeat $orange center;
+            }
+          }
+          .bx-next {
+            right: 16px;
+            background: url(../icon/icon-link-arrow-right-brown.png) no-repeat rgba(79,82,83,0.7) center;
+            @include transition();
+            &:hover{
+              background: url(../icon/icon-link-arrow-right-brown.png) no-repeat $orange  center;
+            }
+          }
+        }
+      }
+    }
+    .main-heading {
+      color: #403b35;
+      margin: 0 0 18px;
+      font-family: 'Exo 2', sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 1.125;
+    }
+  }
+  .link-arrow-right {
+    position: absolute;
+    top: 11px;
+    width: 180px;
+    line-height: 40px;
+    right: 25px;
+    margin: 0 auto;
+    padding-right: 35px;
+    text-transform: none;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: right;
+    background: url(../icon/icon-link-arrow-right-brown.png) no-repeat 95%;
+    color: $grey;
+    @include transition();
+    &:hover{
+      color: $orange;
+      background: url(../icon/icon-link-arrow-right-brown.png) no-repeat $grey 95%;
+      text-align: center;
+    }
+    @media all and (max-width: 767px){
+        text-align: left;
+        padding-left: 15px;
+        top: 60px;
+        width: 180px;
+        right: inherit;
+        left: 0;
+    }
+  }
+  @media all and (max-width: 791px){
+    .main-headingTop{
+      text-align: left;
+      padding-left: 15px;
+    }
+  }
+  @media all and (max-width: 767px){
+    .main-headingTop{
+      text-align: left;
+      height: 75px;
+    }
+  }
+}

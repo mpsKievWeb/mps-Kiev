@@ -1,0 +1,43 @@
+.advice{
+  .article-wrapper{
+    margin-bottom: $regular-spacer;
+    .linkMoreBlock{
+      float: right;
+      @media screen and (max-width: 650px) {
+        display: block;
+        width: 150px;
+        margin: 0 auto;
+        float: none;
+      }
+      .link-more {
+        position: relative;
+        float: right;
+        padding: $small-spacer 30px $small-spacer $small-spacer;
+        top: -5px;
+        color: $grey;
+        background: url(../icon/icon-link-arrow-right-brown.png) no-repeat 95% 50%;
+        text-decoration: none;
+        outline: none;
+        font-size: $FS-little;
+        font-weight: 300;
+        font-family: $ubuntu;
+        transition: all 0.4s ease-out;
+        &:hover{
+          background: url(../icon/icon-link-arrow-right-brown.png) no-repeat $orange 95% 50%;
+        }
+      }
+    }
+    .social-block{
+      float: left;
+      @media screen and (max-width: 650px) {
+        margin-bottom: $regular-spacer;
+      }
+    }
+  }
+  .paginationControll{
+    @include pagination-control();
+  }
+  .downloadMoreFile{
+   @include btn-download-more();
+  }
+}

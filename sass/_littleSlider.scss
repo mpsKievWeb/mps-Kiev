@@ -1,0 +1,40 @@
+.brandSlider{
+  .multiple-items{
+    padding: 0 40px;
+    margin-bottom: 0;
+    li{
+      &:focus{
+        outline: none;
+      }
+      .cols{
+        display: block;
+        margin: 15px 15px;
+        outline: none;
+        @include transition();
+        &:hover{
+          @include scale();
+        }
+        &:active{
+          outline: none !important;
+        }
+        img{
+          height: 60px;
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    }
+    .my-prev{
+      @include slider-arrow();
+      top: 35%;
+      left: 0;
+      background: url(../icon/Image_from_Skype.png) no-repeat center rgba(79, 82, 83, 0.7) ;
+    }
+    .my-next{
+      @include slider-arrow();
+      top: 35%;
+      right: 0;
+      background: url(../icon/icon-link-arrow-right-brown.png) no-repeat center rgba(79,82,83,0.7);
+    }
+  }
+}
