@@ -1,9 +1,9 @@
 .largeSlider{
   background-color: $orange;
-  padding: 30px 0px;
+  padding: 30px 0;
   .sliderTitle{
-    margin: 0px 0px 30px;
-    font-family: 'Exo 2', sans-serif;
+    margin: 0 0 30px;
+    font-family: $exo2;
     color: $black;
     text-transform: uppercase;
     width: 100%;
@@ -12,12 +12,12 @@
     font-weight: 700;
   }
   .small-slick{
-    padding: 0px 40px;
-    margin: 20px 0px;
+    padding: 0 40px;
+    margin: 20px 0;
     .cols-large{
       position: relative;
       width: 575px;
-      margin: 0px 20px 0px 20px;
+      margin: 0 20px 0 20px;
       &:focus{
         outline: none;
       }
@@ -36,11 +36,11 @@
           font-size: 12px;
           color: $grey;
           p{
-            margin: 0px;
+            margin: 0;
           }
           .personName {
             margin-bottom: 0;
-            font-family: 'Exo 2', sans-serif;
+            font-family: $exo2;
             font-size: 32px;
             font-weight: 700;
             line-height: 30px;
@@ -48,8 +48,8 @@
         }
         .personStory {
           position: absolute;
-          right: 0px;
-          bottom: 0px;
+          right: 0;
+          bottom: 0;
           padding: 25px 15px 10px 15px;
           font-weight: 200;
           .readMore{
@@ -63,7 +63,7 @@
             background-color: rgba(66,63,58,.7);
             font-weight: 400;
             text-transform: none;
-            margin: 0px 0px 12px 0px;
+            margin: 0 0 12px 0;
             font-size: 24px !important;
           }
           p{
@@ -72,7 +72,7 @@
             color: $white;
             background-color: rgba(66,63,58,.7);
             font-size: 16px;
-            font-family: 'Exo 2', sans-serif;
+            font-family: $exo2;
             font-weight: 400;
 
           }

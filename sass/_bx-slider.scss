@@ -33,9 +33,9 @@
   -moz-box-shadow: 0 0 5px #ccc;
   -webkit-box-shadow: 0 0 5px #ccc;
   box-shadow: 0 0 5px #ccc;
-  border:  5px solid #fff;
+  border:  5px solid  $white;
   left: -5px;
-  background: #fff;
+  background: $white;
 
   /*fix other elements on the page moving (on Chrome)*/
   -webkit-transform: translatez(0);
@@ -56,7 +56,7 @@
 
 .bx-wrapper .bx-loading {
   min-height: 50px;
-  background: url(images/bx_loader.gif) center center no-repeat #fff;
+  background: url(images/bx_loader.gif) center center no-repeat  $white;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -196,7 +196,7 @@
 }
 
 .bx-wrapper .bx-caption span {
-  color: #fff;
+  color:  $white;
   font-family: Arial;
   display: block;
   font-size: .85em;

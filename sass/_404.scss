@@ -109,11 +109,11 @@
           line-height: 5px;
           padding: 10px;
           color: $white;
-          font-family: 'Ubuntu', sans-serif;
+          font-family: $ubuntu;
           font-weight: normal;
           font-size: 12px;
           &:hover{
-            color: #868584;
+            color: $lightgrey;
           }
         }
       }

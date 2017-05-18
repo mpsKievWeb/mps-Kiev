@@ -5875,7 +5875,7 @@ See the compiled (debugged) code below.
   #diplomProgram .sortingPage p {
     color: #9e9e9e;
     font-size: 16px;
-    font-family: 'Ubuntu', sans-serif; }
+    font-family: "Ubuntu", sans-serif; }
   #diplomProgram .sortingPage .sortingText {
     float: left;
     width: 30%; }
@@ -6109,7 +6109,7 @@ See the compiled (debugged) code below.
     background: #ffffff; }
 
 #abroadEducation .greyBlockOfferTitleDown {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   margin-top: 0;
   margin-bottom: 15px;
   position: inherit !important;
@@ -6139,7 +6139,7 @@ See the compiled (debugged) code below.
   font-size: 14px; }
 
 #abroadEducation .levelEducation {
-  background: #eaeaea;
+  background: #f5f5f5;
   margin: 0;
   transition: all 0.6s ease-out; }
   #abroadEducation .levelEducation .abroadOffer {
@@ -6161,21 +6161,21 @@ See the compiled (debugged) code below.
       transition: all 0.4s ease-out; }
       #abroadEducation .levelEducation .abroadOffer .recomendationUniversity .recomendationUniversityName {
         display: block;
-        color: #000000;
+        color: #201600;
         font-weight: 700;
         width: 100%;
         font-size: 15px;
         padding-left: 17px;
         margin: 0;
-        font-family: 'Ubuntu', sans-serif;
+        font-family: "Ubuntu", sans-serif;
         margin-top: 15px;
         transition: all 0.4s ease-out; }
       #abroadEducation .levelEducation .abroadOffer .recomendationUniversity .recomendationUniversityPrise {
         font-size: 18px;
         padding-left: 16px;
-        font-family: 'Ubuntu', sans-serif;
+        font-family: "Ubuntu", sans-serif;
         margin-top: 8px;
-        color: #000000;
+        color: #201600;
         transition: all 0.4s ease-out; }
         #abroadEducation .levelEducation .abroadOffer .recomendationUniversity .recomendationUniversityPrise span {
           font-weight: 700;
@@ -6200,7 +6200,7 @@ See the compiled (debugged) code below.
   transition: all 0.4s ease-out; }
 
 #abroadEducation .blockMoreRead .titlePost {
-  color: #333333;
+  color: #4f5253;
   font-size: 26px;
   width: 100%;
   font-weight: 400; }
@@ -6537,7 +6537,7 @@ See the compiled (debugged) code below.
 .sectionFooter {
   color: #ffffff;
   background-color: #4f5253;
-  margin-bottom: 0px; }
+  margin-bottom: 0; }
   .sectionFooter .left-text-footer {
     margin: 0 auto;
     float: right; }
@@ -6571,7 +6571,7 @@ See the compiled (debugged) code below.
         .sectionFooter .left-text-footer .more .contactList .btn-Consultation:hover, .sectionFooter .left-text-footer .program .contactList .btn-Consultation:hover, .sectionFooter .left-text-footer .country .contactList .btn-Consultation:hover, .sectionFooter .left-text-footer .contactAdress .contactList .btn-Consultation:hover {
           text-transform: uppercase; }
       .sectionFooter .left-text-footer .more .moreList, .sectionFooter .left-text-footer .more .programList, .sectionFooter .left-text-footer .more .contactList, .sectionFooter .left-text-footer .more .adressList, .sectionFooter .left-text-footer .program .moreList, .sectionFooter .left-text-footer .program .programList, .sectionFooter .left-text-footer .program .contactList, .sectionFooter .left-text-footer .program .adressList, .sectionFooter .left-text-footer .country .moreList, .sectionFooter .left-text-footer .country .programList, .sectionFooter .left-text-footer .country .contactList, .sectionFooter .left-text-footer .country .adressList, .sectionFooter .left-text-footer .contactAdress .moreList, .sectionFooter .left-text-footer .contactAdress .programList, .sectionFooter .left-text-footer .contactAdress .contactList, .sectionFooter .left-text-footer .contactAdress .adressList {
-        padding: 0px;
+        padding: 0;
         list-style: none;
         line-height: 25px; }
         .sectionFooter .left-text-footer .more .moreList li, .sectionFooter .left-text-footer .more .programList li, .sectionFooter .left-text-footer .more .contactList li, .sectionFooter .left-text-footer .more .adressList li, .sectionFooter .left-text-footer .program .moreList li, .sectionFooter .left-text-footer .program .programList li, .sectionFooter .left-text-footer .program .contactList li, .sectionFooter .left-text-footer .program .adressList li, .sectionFooter .left-text-footer .country .moreList li, .sectionFooter .left-text-footer .country .programList li, .sectionFooter .left-text-footer .country .contactList li, .sectionFooter .left-text-footer .country .adressList li, .sectionFooter .left-text-footer .contactAdress .moreList li, .sectionFooter .left-text-footer .contactAdress .programList li, .sectionFooter .left-text-footer .contactAdress .contactList li, .sectionFooter .left-text-footer .contactAdress .adressList li {
@@ -9204,7 +9204,7 @@ See the compiled (debugged) code below.
   float: none;
   margin-bottom: 30px;
   padding: 30px 30px 15px;
-  background-color: #eeeeee; }
+  background-color: #f5f5f5; }
   .blog .left-text .social-block-buttons .icon-single {
     width: 11%; }
   .blog .left-text .social-block-buttons .social-icon-wrapper {
@@ -9313,7 +9313,7 @@ See the compiled (debugged) code below.
   height: 100%;
   padding: 7px 0 18px;
   text-align: center;
-  background-color: #f6d133;
+  background-color: #f1cc33;
   margin-bottom: 30px; }
   @media all and (max-width: 1024px) {
     .reviews .stories-wrapper {
@@ -9384,10 +9384,10 @@ See the compiled (debugged) code below.
               margin: 0 100px 40px 0;
               top: 4px;
               max-width: 160px;
-              font-family: 'Ubuntu', sans-serif;
+              font-family: "Ubuntu", sans-serif;
               font-weight: 300;
               font-size: 12px;
-              color: #423f3a;
+              color: #333333;
               text-align: left;
               line-height: 1.125; }
             .reviews .stories-wrapper .stories-slider-full-sized-wrapper .bx-wrapper .bx-viewport .stories-slider-full-sized .stories-item .container .stories-main-content {
@@ -9396,13 +9396,13 @@ See the compiled (debugged) code below.
               bottom: 0;
               font-size: 16px;
               font-weight: 200;
-              color: #fff;
+              color: #ffffff;
               text-align: left;
               line-height: 1.4;
               margin-left: 260px; }
               @media all and (max-width: 1200px) {
                 .reviews .stories-wrapper .stories-slider-full-sized-wrapper .bx-wrapper .bx-viewport .stories-slider-full-sized .stories-item .container .stories-main-content {
-                  margin-left: 0px; } }
+                  margin-left: 0; } }
               .reviews .stories-wrapper .stories-slider-full-sized-wrapper .bx-wrapper .bx-viewport .stories-slider-full-sized .stories-item .container .stories-main-content .stories-main-content-full {
                 padding: 15px;
                 background-color: rgba(255, 255, 255, 0.7); }
@@ -9415,11 +9415,11 @@ See the compiled (debugged) code below.
                   max-height: 100%;
                   margin-bottom: 20px;
                   padding: 0;
-                  color: #000;
+                  color: #201600;
                   background-color: transparent;
                   overflow: hidden; }
               .reviews .stories-wrapper .stories-slider-full-sized-wrapper .bx-wrapper .bx-viewport .stories-slider-full-sized .stories-item .container .stories-main-content .sub-heading {
-                background-color: #f5d033;
+                background-color: #f1cc33;
                 max-width: 81.25345622119815668202764976959%;
                 margin: 0 0 23px 40px;
                 padding-bottom: 7px;
@@ -9471,7 +9471,7 @@ See the compiled (debugged) code below.
   .reviews .stories-wrapper .main-heading {
     color: #403b35;
     margin: 0 0 18px;
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 1.125; }
@@ -9543,9 +9543,9 @@ See the compiled (debugged) code below.
   -moz-box-shadow: 0 0 5px #ccc;
   -webkit-box-shadow: 0 0 5px #ccc;
   box-shadow: 0 0 5px #ccc;
-  border: 5px solid #fff;
+  border: 5px solid #ffffff;
   left: -5px;
-  background: #fff;
+  background: #ffffff;
   /*fix other elements on the page moving (on Chrome)*/
   -webkit-transform: translatez(0);
   -moz-transform: translatez(0);
@@ -9562,7 +9562,7 @@ See the compiled (debugged) code below.
 /* LOADER */
 .bx-wrapper .bx-loading {
   min-height: 50px;
-  background: url(images/bx_loader.gif) center center no-repeat #fff;
+  background: url(images/bx_loader.gif) center center no-repeat #ffffff;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -9678,7 +9678,7 @@ See the compiled (debugged) code below.
   width: 100%; }
 
 .bx-wrapper .bx-caption span {
-  color: #fff;
+  color: #ffffff;
   font-family: Arial;
   display: block;
   font-size: .85em;
@@ -9750,14 +9750,14 @@ See the compiled (debugged) code below.
   line-height: 20px;
   text-align: left;
   font-size: 14px;
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   background: url(../icon/icon-link-arrow-right-brown.png) no-repeat #f1cc33;
   background-position: 96%;
   padding: 10px 15px;
   border: 0;
   font-weight: 700;
   text-transform: uppercase;
-  color: #201601; }
+  color: #201600; }
 
 .aboutUs .article-wrapper {
   border-bottom: 0 !important; }
@@ -9784,7 +9784,7 @@ See the compiled (debugged) code below.
     background: url(../icon/icon-decorated-list.png) no-repeat 0 50%; }
     .aboutUs .decorated-list .list-item .sub-heading {
       margin: 0;
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-size: 24px;
       font-weight: 400;
       line-height: 1.2; }
@@ -9905,11 +9905,11 @@ See the compiled (debugged) code below.
       line-height: 5px;
       padding: 10px;
       color: #ffffff;
-      font-family: 'Ubuntu', sans-serif;
+      font-family: "Ubuntu", sans-serif;
       font-weight: normal;
       font-size: 12px; }
       #fourError .listError404 ul li a:hover {
-        color: #868584; }
+        color: #9e9e9e; }
 
 @media screen and (max-width: 768px) {
   #fourError .header .container .headerMain .logo {
@@ -10044,29 +10044,29 @@ See the compiled (debugged) code below.
     top: 3.5em; }
   .range__slider .irs-grid-pol {
     height: 0.25em;
-    background: #999; }
+    background: #9e9e9e; }
   .range__slider .irs-single {
     padding: 0;
     top: 0.4em;
     font-size: 1.2em;
     background: transparent;
     color: #f1cc33;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-weight: 700; }
   .range__slider .range__budget--min {
     position: absolute;
     left: 0;
     bottom: 40px;
-    color: #81818c;
-    font-family: 'Ubuntu', sans-serif;
+    color: #4f5253;
+    font-family: "Ubuntu", sans-serif;
     font-size: 12px;
     font-weight: 300; }
   .range__slider .range__budget--max {
     position: absolute;
     bottom: 40px;
     right: 0;
-    color: #81818c;
-    font-family: 'Ubuntu', sans-serif;
+    color: #4f5253;
+    font-family: "Ubuntu", sans-serif;
     font-size: 12px;
     font-weight: 300; }
 
@@ -10098,29 +10098,29 @@ See the compiled (debugged) code below.
     top: 3.5em; }
   .range__slider2 .irs-grid-pol {
     height: 0.25em;
-    background: #999; }
+    background: #4f5253; }
   .range__slider2 .irs-single {
     padding: 0;
     top: 0.4em;
     font-size: 1.2em;
     background: transparent;
     color: #f1cc33;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-weight: 700; }
   .range__slider2 .range__budget--min {
     position: absolute;
     left: 0;
     bottom: 40px;
-    color: #81818c;
-    font-family: 'Ubuntu', sans-serif;
+    color: #4f5253;
+    font-family: "Ubuntu", sans-serif;
     font-size: 12px;
     font-weight: 300; }
   .range__slider2 .range__budget--max {
     position: absolute;
     bottom: 40px;
     right: 0;
-    color: #81818c;
-    font-family: 'Ubuntu', sans-serif;
+    color: #4f5253;
+    font-family: "Ubuntu", sans-serif;
     font-size: 12px;
     font-weight: 300; }
 
@@ -10130,13 +10130,13 @@ See the compiled (debugged) code below.
   width: 17%;
   padding: 0 0.5em;
   color: #ffffff;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 1em;
   font-weight: 300;
   text-align: justify; }
   .footer__countries p {
     padding: 0 0 1em 0;
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-size: 1.3em;
     font-weight: 400;
     line-height: 1.5; }
@@ -10152,13 +10152,13 @@ See the compiled (debugged) code below.
       background-color: rgba(192, 192, 192, 0.3); }
     .footer__countries .footer__countries__wrap .footer__countries--box li {
       padding: 0 0.2em;
-      font-family: 'Ubuntu', sans-serif;
+      font-family: "Ubuntu", sans-serif;
       font-size: 0.9em;
       font-weight: 300;
       line-height: 1.7; }
       .footer__countries .footer__countries__wrap .footer__countries--box li:hover {
         cursor: pointer;
-        background-color: #4d5152; }
+        background-color: #4f5253; }
 
 .mCS-rounded-dots .mCSB_scrollTools {
   width: 20px; }
@@ -10169,7 +10169,7 @@ See the compiled (debugged) code below.
   .mCS-rounded-dots .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
     width: 14px !important;
     height: 14px;
-    background-color: #666;
+    background-color: #4f5253;
     border: 4px solid #ffffff; }
 
 .mCSB_inside > .mCSB_container {
@@ -10193,12 +10193,12 @@ See the compiled (debugged) code below.
     max-width: 100%;
     top: 35px;
     border: 1px solid #f1cc33 !important;
-    border-radius: 0px;
-    border-top: 0px !important;
+    border-radius: 0;
+    border-top: 0 !important;
     left: 0; }
   .filterSection .parentFieldSearch {
     position: relative;
-    margin: 0px 10px; }
+    margin: 0 10px; }
     .filterSection .parentFieldSearch .dropdown-menu {
       max-width: 100%;
       left: 0; }
@@ -10245,10 +10245,10 @@ See the compiled (debugged) code below.
 
 .largeSlider {
   background-color: #f1cc33;
-  padding: 30px 0px; }
+  padding: 30px 0; }
   .largeSlider .sliderTitle {
-    margin: 0px 0px 30px;
-    font-family: 'Exo 2', sans-serif;
+    margin: 0 0 30px;
+    font-family: "Exo 2", sans-serif;
     color: #201600;
     text-transform: uppercase;
     width: 100%;
@@ -10256,12 +10256,12 @@ See the compiled (debugged) code below.
     font-size: 36px;
     font-weight: 700; }
   .largeSlider .small-slick {
-    padding: 0px 40px;
-    margin: 20px 0px; }
+    padding: 0 40px;
+    margin: 20px 0; }
     .largeSlider .small-slick .cols-large {
       position: relative;
       width: 575px;
-      margin: 0px 20px 0px 20px; }
+      margin: 0 20px 0 20px; }
       .largeSlider .small-slick .cols-large:focus {
         outline: none; }
       .largeSlider .small-slick .cols-large .person {
@@ -10278,17 +10278,17 @@ See the compiled (debugged) code below.
           font-size: 12px;
           color: #4f5253; }
           .largeSlider .small-slick .cols-large .person .personInfo p {
-            margin: 0px; }
+            margin: 0; }
           .largeSlider .small-slick .cols-large .person .personInfo .personName {
             margin-bottom: 0;
-            font-family: 'Exo 2', sans-serif;
+            font-family: "Exo 2", sans-serif;
             font-size: 32px;
             font-weight: 700;
             line-height: 30px; }
         .largeSlider .small-slick .cols-large .person .personStory {
           position: absolute;
-          right: 0px;
-          bottom: 0px;
+          right: 0;
+          bottom: 0;
           padding: 25px 15px 10px 15px;
           font-weight: 200; }
           .largeSlider .small-slick .cols-large .person .personStory .readMore {
@@ -10317,7 +10317,7 @@ See the compiled (debugged) code below.
             background-color: rgba(66, 63, 58, 0.7);
             font-weight: 400;
             text-transform: none;
-            margin: 0px 0px 12px 0px;
+            margin: 0 0 12px 0;
             font-size: 24px !important; }
           .largeSlider .small-slick .cols-large .person .personStory p {
             display: inline-block;
@@ -10325,7 +10325,7 @@ See the compiled (debugged) code below.
             color: #ffffff;
             background-color: rgba(66, 63, 58, 0.7);
             font-size: 16px;
-            font-family: 'Exo 2', sans-serif;
+            font-family: "Exo 2", sans-serif;
             font-weight: 400; }
         .largeSlider .small-slick .cols-large .person .second-personInfo {
           color: #ffffff; }
@@ -10458,7 +10458,7 @@ See the compiled (debugged) code below.
         display: inline-block;
         margin: 0;
         margin-bottom: 18px;
-        font-family: 'Exo 2', sans-serif;
+        font-family: "Exo 2", sans-serif;
         color: #201600;
         text-transform: uppercase;
         background-color: rgba(241, 204, 51, 0.8);
@@ -10477,7 +10477,7 @@ See the compiled (debugged) code below.
       padding-top: 10px;
       padding-left: 15px;
       padding-right: 15px;
-      font-family: 'Ubuntu', sans-serif;
+      font-family: "Ubuntu", sans-serif;
       font-weight: 300;
       position: relative;
       color: #201600;
@@ -10487,7 +10487,7 @@ See the compiled (debugged) code below.
         display: block;
         font-weight: 700;
         color: #9e9e9e;
-        margin: 10px 0px 30px 0px; }
+        margin: 10px 0 30px 0; }
       .header .headerMain .filterForm .btn-Filter .min {
         position: absolute;
         left: 0; }
@@ -10616,6 +10616,8 @@ See the compiled (debugged) code below.
   .btn-Filter .dropdown {
     width: 100%;
     text-align: left;
+    position: relative;
+    z-index: 110;
     padding-left: 10px;
     cursor: pointer;
     color: #666666;
@@ -10630,7 +10632,6 @@ See the compiled (debugged) code below.
     transition: all 0.6s ease-out; }
     .btn-Filter .dropdown:hover {
       color: #201600;
-      background: url("../icon/icon-link.png") transparent no-repeat;
       background-position: 95%; }
   .btn-Filter .dropdown-menu {
     opacity: 1;
@@ -10975,7 +10976,7 @@ nav {
         background: #f1cc33; }
   nav .my-open .btn-PhoneNumber {
     background: url("../icon/header-arrow-up.png") no-repeat !important;
-    background-position: 0% !important;
+    background-position: 0 !important;
     padding-left: 20px; }
 
 #mobpanel {
@@ -11090,7 +11091,7 @@ nav {
           background: #666666 !important; }
   #mobpanel .my-open .btn-PhoneNumber {
     background: url(../icon/icon-link-up.png) no-repeat !important;
-    background-position: 0% !important;
+    background-position: 0 !important;
     padding-left: 20px; }
   #mobpanel .close {
     width: 35px !important;
@@ -11509,7 +11510,7 @@ nav {
       display: block;
       margin: 0 auto;
       margin-bottom: 15px;
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       color: #201600;
       text-align: center;
       text-transform: uppercase; }
@@ -11525,7 +11526,7 @@ nav {
     #info-block .resizeInfoBlock p {
       margin-top: 15px;
       margin-bottom: 0;
-      font-family: 'Ubuntu', sans-serif;
+      font-family: "Ubuntu", sans-serif;
       font-size: 16px;
       color: #201600; }
 
@@ -11564,7 +11565,7 @@ nav {
           .header .container .headerMain .filterForm h3 {
             font-size: 18px;
             text-align: right;
-            margin: 0px 0px 47px 0px !important; }
+            margin: 0 0 47px 0 !important; }
         .header .container .headerMain .logo {
           position: absolute;
           top: 25px;
@@ -11572,7 +11573,7 @@ nav {
           width: 45px;
           height: 45px;
           padding: 0;
-          margin: 0px !important;
+          margin: 0 !important;
           overflow: hidden;
           z-index: 1;
           display: inline-block; }
@@ -11596,7 +11597,7 @@ nav {
   .programPage .aboutProgram .flex {
     display: block;
     margin-right: 15px;
-    border: 0px; }
+    border: 0; }
   .programPage .navigationProgram {
     text-align: center; }
   .programPage .programInfo {
@@ -11644,9 +11645,9 @@ nav {
       width: 40%;
       margin: 0 auto; }
   .brandSlider .multiple-items {
-    padding: 0px; }
+    padding: 0; }
   .largeSlider .small-slick {
-    padding: 0px; }
+    padding: 0; }
   .largeSlider .person img {
     text-decoration: none; }
   .largeSlider .person .personInfo {
@@ -11665,7 +11666,7 @@ nav {
     background-position: center;
     background-size: cover; }
     .header .headerMain {
-      padding-bottom: 0px !important; }
+      padding-bottom: 0 !important; }
       .header .headerMain .title-right {
         position: relative !important;
         display: block !important;
@@ -11681,9 +11682,9 @@ nav {
         margin-top: 18px;
         float: right; }
       .header .headerMain .filterForm {
-        margin-top: 0px !important;
+        margin-top: 0 !important;
         width: 100% !important;
-        padding: 10px 15px 0px 15px !important; }
+        padding: 10px 15px 0 15px !important; }
         .header .headerMain .filterForm h3 {
           text-align: center;
           font-size: 26px; }
@@ -14071,7 +14072,7 @@ section {
     margin: 20px 0px; }
   .postsSection .left-text .titlePosts {
     margin: 0px;
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-size: 24px;
     font-weight: 400;
     text-align: center;
@@ -14080,12 +14081,12 @@ section {
     padding: 15px 0px 15px 0px; }
   .postsSection .left-text .titlePost {
     margin: 30px 0px 20px 0px;
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-size: 24px;
     font-weight: 400;
     color: #333333 !important; }
   .postsSection .left-text p {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-size: 16px;
     color: #201600;
     margin: 0px; }
@@ -14094,7 +14095,7 @@ section {
   color: #333333;
   font-size: 26px;
   width: 100%;
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: 400; }
 
 .blockMoreRead .btnMore {
@@ -14130,24 +14131,27 @@ section {
 
 .priorityLabel {
   position: absolute;
-  z-index: 1000;
+  z-index: 100;
   display: block;
   cursor: pointer;
   top: 50px; }
+  .priorityLabel:before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 3px;
+    left: 0;
+    width: 24px;
+    height: 15px;
+    font-size: 12px;
+    background: url(../icon/icon-priority.png) no-repeat 0 0; }
   .priorityLabel #priority {
     margin-right: 23px;
     margin-left: 5px;
-    width: 2px; }
-    .priorityLabel #priority:before {
-      content: '';
-      position: absolute;
-      display: block;
-      top: 3px;
-      left: 0;
-      width: 24px;
-      height: 15px;
-      font-size: 12px;
-      background: url(../icon/icon-priority.png) no-repeat 0 0; }
+    width: 2px;
+    position: relative;
+    top: 30px;
+    z-index: -1; }
 
 #concultation .priorityLabel {
   display: none; }
@@ -14224,7 +14228,7 @@ section {
   background-color: #ffd82b; }
 
 .my-open .dropdown {
-  background: url("../icon/icon-link-up.png") no-repeat !important;
+  background: url("../icon/icon-link-up.png") no-repeat #ffffff !important;
   background-position: 95% !important;
   transition: all 0.6s ease-out; }
 

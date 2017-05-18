@@ -209,6 +209,8 @@ See the compiled (debugged) code below.
 @mixin btn-dropdown($bgcolor:$white,$text-color:$grey-middle,$border-color:$lightgrey,$bghover:$transparent,$tx-color-hover:$black){
   width: $hundred;
   text-align: left;
+  position: relative;
+  z-index: 110;
   padding-left: $small-spacer;
   cursor: pointer;
   color: $text-color;
@@ -222,7 +224,6 @@ See the compiled (debugged) code below.
   border: 1px solid $border-color;
   &:hover{
     color:$tx-color-hover ;
-    background: url("../icon/icon-link.png") $bghover no-repeat;
     background-position: 95%;
   }
 }
@@ -254,7 +255,7 @@ See the compiled (debugged) code below.
 }
 @mixin dropdown-open(){
   .dropdown{
-    background: url("../icon/icon-link-up.png") no-repeat !important;
+    background: url("../icon/icon-link-up.png") no-repeat $white !important;
     background-position: 95% !important;
     @include transition();
   }

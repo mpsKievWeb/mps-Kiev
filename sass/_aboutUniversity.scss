@@ -74,13 +74,13 @@
     line-height: 20px;
     text-align: left;
     font-size: 14px;
-    font-family: 'Exo 2', sans-serif;
+    font-family: $exo2;
     background: url(../icon/icon-link-arrow-right-brown.png) no-repeat $orange;
     background-position: 96%;
     padding: 10px 15px;
     border: 0;
     font-weight: 700;
     text-transform: uppercase;
-    color: #201601;
+    color: $black;
   }
 }

@@ -1,7 +1,7 @@
 .sectionFooter{
   color: $white;
   background-color: $grey;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   .left-text-footer{
     margin: 0 auto;
     float: right;
@@ -45,7 +45,7 @@
         }
       }
       .moreList,.programList,.contactList,.adressList{
-        padding: 0px;
+        padding: 0;
         list-style: none;
         line-height: 25px;
         li{
